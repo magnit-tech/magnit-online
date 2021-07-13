@@ -5,10 +5,11 @@ Magnit Pay — это платежный сервис компании Магн�
 Сервис создан в первую очередь для покупателей сети Магнит, как для оплаты товаров в магазинах, так и для сторонних платежей, представленных в приложении: сотовая связь, интернет и подобные lifestyle-сервисы. На будущее запланировано значительное расширение продуктовых возможностей сервиса, чтобы максимально покрыть ежедневные потребности наших покупателей, пользователей [приложения Магнит](https://moy.magnit.ru/app), сделать их жизнь удобней.
 
 ## Пресс-релизы
-- [«Магнит» запустил Magnit Pay](https://www.magnit.com/ru/media/press-releases/magnit-zapustil-magnit-pay/)
-- [«Магнит» запустил оплату по QR-коду для держателей карт Magnit Pay](https://www.magnit.com/ru/media/press-releases/magnit-zapustil-oplatu-po-qr-kodu-dlya-derzhateley-kart-magnit-pay/)
-- [«Магнит» запустил сервис Кредитного брокера](https://www.magnit.com/ru/media/press-releases/magnit-zapustil-servis-kreditnogo-brokera/)
-- [«Магнит» выпустил 5 миллионов платежных карт Magnit Pay](https://www.magnit.com/ru/media/press-releases/magnit-vypustil-5-millionov-platezhnykh-kart-magnit-pay/)
+
+* [«Магнит» запустил Magnit Pay](https://www.magnit.com/ru/media/press-releases/magnit-zapustil-magnit-pay/)
+* [«Магнит» запустил оплату по QR-коду для держателей карт Magnit Pay](https://www.magnit.com/ru/media/press-releases/magnit-zapustil-oplatu-po-qr-kodu-dlya-derzhateley-kart-magnit-pay/)
+* [«Магнит» запустил сервис Кредитного брокера](https://www.magnit.com/ru/media/press-releases/magnit-zapustil-servis-kreditnogo-brokera/)
+* [«Магнит» выпустил 5 миллионов платежных карт Magnit Pay](https://www.magnit.com/ru/media/press-releases/magnit-vypustil-5-millionov-platezhnykh-kart-magnit-pay/)
 
 ## Команда
 
