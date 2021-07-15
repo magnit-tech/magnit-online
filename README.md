@@ -58,7 +58,7 @@ Magnit SuperApp
 
 ### Команды
 
-* команда Лояльности
+* [команда Лояльности](loyalty.md)
 * [команда MagnitPay](magnit_pay.md)
 * [команда MagnitMobile](magnit_mobile.md)
 * команда Маркетинга
