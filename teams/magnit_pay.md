@@ -17,7 +17,8 @@ Magnit Pay — это платежный сервис компании Магн�
 
 ## Используемые технологии и инструменты
 
-* [mobile kotlin](kotlin.md)
-* [mobile swift](swift.md)
-* [backend go](golang.md)
-* [backend python](python.md)
+* [mobile kotlin](tech/kotlin.md)
+* [mobile swift](tech/swift.md)
+* [backend go](tech/golang.md)
+* [backend python](tech/python.md)
+
