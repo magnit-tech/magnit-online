@@ -35,24 +35,28 @@
 ### DI
 
 В проекте используется в качестве DI зависимость DIP.
-В [ModuleCenter](https://github.com/magnit-tech/magnit-ios/blob/develop/Magnit/Modules/ModuleCenter.swift) регистрируются зависимости.
+В [ModuleCenter](https://gitlab.com/magnit-online-services/app-loyalty/mobile/ios/-/blob/develop/Magnit/Modules/ModuleCenter.swift) регистрируются зависимости.
 Из ModuleCenter зависимости забираются посредством метода `getModule`, который возвращает Optional, это сделано в угоду безопасности.
 
 ## UI
 
-В основе UI - **UIKit**. Для иерархий для экранов форм используется подход с CVC (Child View Controller), где каждая часть представлена в виде секции и помещена в UIStackView. Экраны-списки реализованы классическим путём с определением делегатов на уровне ViewController без менеджера для tableView/collectionView. Раньше вёрстка осуществлялась через xib-файлы с пост-настройкой стиля, констрейнтов и пр. в коде; в данный момент всё верстается в коде при помощи **AutoLayout** + **Constraints**
+В основе UI - **UIKit**. Для иерархий для экранов форм используется подход с CVC (Child View Controller), где каждая часть представлена в виде секции и помещена в UIStackView. Экраны-списки реализованы классическим путём с определением делегатов на уровне ViewController без менеджера для tableView/collectionView. Раньше вёрстка осуществлялась через xib-файлы с пост-настройкой стиля, констрейнтов и пр. в коде, но сейчас такой подход больше не используется, по возможности верстку всех экранов переносим в код при помощи **AutoLayout** + **Constraints**
 
 ### Ассеты
 
-Особенности работы с ассетами (изображения). Если ассет экспортируем в векторный формат (svg), то такие ассеты добавляются в доску на **PaintCode** и экспортируются в StyleKit.swift файл в код репозитория. При отказе от iOS 12 сможем работать с svg нативно уже без **PaintCode**. Добавление новых ассетов происходит через ветку *assets*, и потом в фиче-ветку, ввиду того, что мерж-конфликты нерешабельны при параллельном добавлении ассетов в разные ветки.
+В качестве ассетов (изображений) используются экспортируемые из Figma ассеты в векторном формате SVG. Именование происходит с префиксом в зависимости от назначения изображений - "ic_" иконки, "bg_" фоновые картинки, "img_" картинки общего назначения. Работа с PaintCode больше не ведётся, в перспективе мы должны полностью заменить StyleKit на использование нативных ассетов и дизайн систему (см. ниже)
+
+## Дизайн-система
+
+В командах было принято за стандарт использовать все поступающие от дизайна элементы, цвета, отступы, шрифты и пр. из единого источника правды для композиции пользовательского интерфейса - это дизайн система. Обновляется и дополняется в отдельном [репозитории](https://gitlab.com/magnit-online-services/app-loyalty/mobile/design-system-ios), а поставляется в проект через pod.
 
 ## Локализация
-В приложении используется русская и английская локализация. Процесс локализации осуществляется централизованно с помощью инструмента **POEditor**. После добавления новых локализованных строчек в проекте в POEditor нужно выполнить скрипт **updateStrings** из папки [scripts](https://github.com/magnit-tech/magnit-ios/tree/develop/scripts) и добавить полученные локализованные тексты в репозиторий.
+В приложении используется русская и английская локализация. Процесс локализации осуществляется централизованно с помощью инструмента **POEditor**. После добавления новых локализованных строчек в проекте в POEditor нужно выполнить скрипт **updateStrings** из папки [scripts](https://gitlab.com/magnit-online-services/app-loyalty/mobile/ios/-/tree/develop/scripts) и добавить полученные локализованные тексты в репозиторий.
 
 ## Работа с сетью
 
-Для работы с сетью в основе лежит **Alamofire**, поверх которого есть обертка в виде собственного [APIClient](https://github.com/magnit-tech/magnit-ios/blob/develop/Magnit/Networking/Magnit/APIClient.swift) с generics под ответ/запрос. Коммуникация между backend и frontend используется Swagger first approach, где backend предоставляет swagger.yaml, а frontend генериурет networking слой. Для генерации кода на Swift используется утилита **[SwagGen](https://github.com/yonaskolb/SwagGen)** с кастомным набором шаблонов.
-Запуск генерации так же происходит посредством вызова скриптов **updateNetworkLayer**, **updatePostmanMocks** из папки [scripts](https://github.com/magnit-tech/magnit-ios/tree/develop/scripts)
+Для работы с сетью в основе лежит **Alamofire**, поверх которого есть обертка в виде собственного [APIClient](https://gitlab.com/magnit-online-services/app-loyalty/mobile/ios/-/blob/develop/Magnit/Networking/Magnit/APIClient.swift) с generics под ответ/запрос. Для коммуникации между backend и frontend используется Swagger first approach, где backend предоставляет swagger.yaml, а frontend генериурет networking слой. Для генерации кода на Swift используется утилита **[SwagGen](https://github.com/yonaskolb/SwagGen)** с кастомным набором шаблонов.
+Запуск генерации так же происходит посредством вызова скриптов **updateNetworkLayer**, **updatePostmanMocks** из папки [scripts](https://gitlab.com/magnit-online-services/app-loyalty/mobile/ios/-/tree/develop/scripts)
 
 ## Тестирование
 Для Unit-тестирования используется связка **Quick** & **Nimble** для декларативного описания тестов. **Sourcery** используетя для генерации mock-объектов. В небольшом количестве имеются некоторые UI-тесты, что реализованы с помощью **Robot pattern testing**.
@@ -61,8 +65,11 @@
 
 Для разработки используются dev toggles, которые являются enum'ом с набором фичей, которые не должны быть видны в магазинной сборке, но работа над ними ведется.
 В случае, если фича зарелижена, то тоггл удаляется как из enum'a, так и из входных точек фичи удаляются проверки.
-Для установки значений и использования их в коде была написана небольшая [обертка](https://github.com/magnit-tech/magnit-ios/blob/develop/Magnit/Debug/DevToggles/GrowthService.swift)
-[WIP] В ближайших планах переход на FeatureToggle, которые будут приходить с server side и иметь более гибкую возможность включения/выключения функциональности приложения.
+Для установки значений и использования их в коде была написана небольшая [обертка](https://gitlab.com/magnit-online-services/app-loyalty/mobile/ios/-/blob/develop/Magnit/Debug/DevToggles/GrowthService.swift)
+
+## FeatureFlags
+
+Сейчас более активно ведётся разработка с использованием Feature Flags - это удалённое управление состоянием фичи (вкл/выкл) с сервера. Для добавления фиче флага в приложение используется модуль [FeatureFlags](https://gitlab.com/magnit-online-services/app-loyalty/mobile/ios/-/blob/develop/Magnit/Modules/FeatureFlags/FeatureFlagsModule.swift)
 
 ## Контроль версий
 
@@ -72,9 +79,9 @@
 
 ## CI / CD
 
-В качестве CI используется **GitHub Actions**.
-Для сборок используется **fastlane**, в корне проекта есть [папка](https://github.com/magnit-tech/magnit-ios/tree/develop/fastlane) со всеми конфигами.
-Скрипт запуска fastlane лежит в папке [scripts](https://github.com/magnit-tech/magnit-ios/tree/develop/scripts).
+В качестве CI используется **Gitlab Pipelines**.
+Для сборок используется **fastlane**, в корне проекта есть [папка](https://gitlab.com/magnit-online-services/app-loyalty/mobile/ios/-/tree/develop/fastlane) со всеми конфигами.
+Скрипт запуска fastlane лежит в папке [scripts](https://gitlab.com/magnit-online-services/app-loyalty/mobile/ios/-/tree/develop/scripts).
 Сертификаты для подписи приложения лежат в отдельном репозитории в зашифрованном виде. Для облегчения работы были написаны лейны `fastlane match_retrieve_debug` и `fastlane match_retrieve_acc` для разных окружений, которые мы используем.
 Если сертификаты оказались невалидны по каким либо причинам, обновить их можно используя лейны `fastlane match_update_debug` и `fastlane match_update_acc` соответственно.
 
@@ -102,6 +109,14 @@
 > * pod 'YandexMobileAds/Dynamic', '2.16.0' # Аналитика
 > * pod 'YandexMobileMetrica/Dynamic/Core', '3.12.0' # Аналитика
 > * pod 'SwiftJWT' # Работа с JWT строками
+> * pod 'Wormholy' # Утилита для логирования и просмотра https запросов с устройства
+
+> * // Приватные репозитории
+> * pod 'DesignSystem', :source => 'https://github.com/magnit-tech/magnit-podspec.git' # Выше упомянутая дизайн-система
+
+> * // Unit-тестирование
+> *  pod 'Quick', '3.0.0' # Вместе с Nimble используются для декларативного описания Unit-тестов
+> *  pod 'Nimble', '9.0.1' #
 
 > * // UI Testing
 > * pod 'SBTUITestTunnelServer', '6.3.0', :configuration => ['Debug']
