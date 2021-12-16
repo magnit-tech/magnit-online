@@ -21,9 +21,76 @@
 
 ![Организационная структура отдела](imgs/chart.jpeg)
 
-### На текущий момент
+### q4 2021
 
-tbd
+```plantuml
+@startuml
+
+@startwbs
+*[#lightskyblue] Online Department
+** Core&Retention Team
+** Activation&Acquisition Team
+** MagnitPay Team
+** DevOps Team
+** Middleware Team
+** MagnitID Team
+@endwbs
+@enduml
+```
+
+### Планы на q1-q2 2022
+
+```plantuml
+@startuml
+
+@startwbs
+*[#lightskyblue] Online Department
+
+** Core&Retention Team
+** Activation&Acquisition Team
+** MagnitPay Team
+** MagnitMobile Team
+** Platform Team
+** ProductPromo Team
+
+**[#limegreen] Infra Cluster
+*** DevOps Team
+*** Middleware Team
+*** MagnitID Team
+*** Release Team
+
+@endwbs
+@enduml
+```
+
+### Планы на q3-q4 2022
+
+```plantuml
+@startuml
+
+@startwbs
+*[#lightskyblue] Online Department
+
+** MagnitPay Team
+** MagnitMobile Team
+** Content Team
+** Ecom Team
+
+**[#limegreen] Core Cluster
+*** Retention Team
+*** Activation&Acquisition Team
+*** Platform Team
+*** ProductPromo Team
+
+**[#limegreen] Infra Cluster
+*** DevOps Team
+*** Middleware Team
+*** MagnitID Team
+*** Release Team
+
+@endwbs
+@enduml
+```
 
 ## Наши Грейды
 
@@ -76,8 +143,6 @@ else (нет)
     :Architect;
     note right: управляет верхнеуровневой архитектурой
 endif
-
-
 
 stop
 @enduml
