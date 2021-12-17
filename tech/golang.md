@@ -2,40 +2,46 @@
 
 ## Version
 
-1.14 и выше. Версии обновлять только до stable.
+1.17 и выше. Версии обновлять только до stable.
+
+## GIT, Gitlab, CI/CD
+
+* Репозитории проектов хранятся на gitlab.com.
+* Все процессы CI/CD полностью автоматизированы. Вмешательство админов и devops'ов для деплоя сервисов не требуется.
+* Новые микросервисы поднимаются из шаблонов и сразу готовы к деплою, даже без добавления бизнес-логики.
+* Задачи, находящиеся в разработке, можно проверять и тестировать в виртуальных окружениях, которые автоматически создаются при пуше ветки в gitlab.
 
 ## Logging
 
 Используем https://github.com/uber-go/zap
 
-Логирование только структурное.
+Логирование только структурное, логи пишем в JSON.
+Для агрегации логов используем Loki. Просмотр логов осуществляется через Grafana и/или Kibana.
 
-Пример:
+## Tracing
 
-```go
-l.Info("Test message", zap.String("details", "details_val"))
-```
+Используем актуальную версию клиента jaeger.
+В качестве хранилища и бэкенда для трайсинга используется Grafana Tempo: https://grafana.com/oss/tempo/
 
-## Http framework
+## Metrics
+
+Для метрик используем Prometheus.
+
+## HTTP Framework
 
 https://github.com/labstack/echo
 
 ## Postgresql
 
-https://github.com/jackc/pgx
+Работа с postgresql осуществляется с помощью: https://github.com/jackc/pgx
 
 Не используем ORM, только RAW запросы.
 
-Миграции:
-https://github.com/golang-migrate/migrate
-
-## Panic & recover
-
-В обработчиках методов и в запускаемых goroutines должны быть recover. 
+Миграции накатываем с помощью golang-migrate: https://github.com/golang-migrate/migrate
 
 ## Specification
 
-Используем подход specification first(OpenAPI v3.0).
+Для взаимодействия между сервисами используем подход specification first (OpenAPI v3.0).
 
 Http methods только **GET** | **POST**.
 
@@ -45,17 +51,12 @@ Http methods только **GET** | **POST**.
 Например:
 ```/v1/users/add```
 
-## Code generation
+## Code Generation
 
-~~Для генерации используется инструмент~~
+Для генерации клиентов использует oapi-codegen (https://github.com/deepmap/oapi-codegen) с набором своих доработок и исправлений.
 
-~~https://github.com/deepmap/oapi-codegen (ждем принятия PR чтобы починить генерацию)~~
-```sh
-git clone https://github.com/deepmap/oapi-codegen.git
-git checkout 5f39b82d62
-go install cmd/oapi-codegen/oapi-codegen.go
-#generate types and server
-oapi-codegen --generate types -o gen/types.go --package gen swagger.yaml
-oapi-codegen --generate server -o gen/server.go  --package gen swagger.yaml
-```
- 
+## Testing
+
+Для удобства написания тестов используем:
+* testify toolkit: https://github.com/stretchr/testify
+* mockery https://github.com/vektra/mockery
