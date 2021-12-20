@@ -31,6 +31,7 @@
 ** Core&Retention Team
 ** Activation&Acquisition Team
 ** MagnitPay Team
+** MagnitMobile Team
 ** DevOps Team
 ** Middleware Team
 ** MagnitID Team
