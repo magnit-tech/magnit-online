@@ -21,7 +21,59 @@
 
 ![Организационная структура отдела](imgs/chart.jpeg)
 
-### q4 2021
+
+### 2021
+
+<details>
+<summary>История тут</summary>
+
+#### q1
+```plantuml
+@startuml
+
+@startwbs
+*[#lightskyblue] Online Department
+** Core&Retention Team
+** MagnitPay Team
+** DevOps Team
+@endwbs
+@enduml
+```
+
+#### q2
+
+```plantuml
+@startuml
+
+@startwbs
+*[#lightskyblue] Online Department
+** Core&Retention Team
+** MagnitPay Team
+** DevOps Team
+** Middleware Team
+** MagnitMobile Team
+@endwbs
+@enduml
+```
+
+#### q3
+
+```plantuml
+@startuml
+
+@startwbs
+*[#lightskyblue] Online Department
+** Core&Retention Team
+** Activation&Acquisition Team
+** MagnitPay Team
+** DevOps Team
+** Middleware Team
+** MagnitMobile Team
+@endwbs
+@enduml
+```
+
+#### q4
 
 ```plantuml
 @startuml
@@ -39,7 +91,15 @@
 @enduml
 ```
 
-### Планы на q1-q2 2022
+</details>
+
+
+### 2022
+
+<details>
+<summary>Планы тут</summary>
+
+#### q1-q2
 
 ```plantuml
 @startuml
@@ -64,7 +124,7 @@
 @enduml
 ```
 
-### Планы на q3-q4 2022
+#### q3-q4
 
 ```plantuml
 @startuml
@@ -77,8 +137,8 @@
 ** Content Team
 ** Ecom Team
 
-**[#limegreen] Core Cluster
-*** Retention Team
+**[#limegreen] Loyalty Cluster
+*** Core&Retention Team
 *** Activation&Acquisition Team
 *** Platform Team
 *** ProductPromo Team
@@ -92,6 +152,7 @@
 @endwbs
 @enduml
 ```
+</details>
 
 ## Наши Грейды
 
