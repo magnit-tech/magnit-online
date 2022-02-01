@@ -33,7 +33,7 @@
 
 @startwbs
 *[#lightskyblue] Online Department
-** Core&Retention Team
+** Retention Team
 ** MagnitPay Team
 ** DevOps Team
 @endwbs
@@ -99,32 +99,29 @@
 <details>
 <summary>Планы тут</summary>
 
-#### q1-q2
+#### q1
 
 ```plantuml
 @startuml
 
 @startwbs
-*[#lightskyblue] Online Department
 
-** Core&Retention Team
+*[#lightskyblue] Online Department
+** Retention Team
 ** Activation&Acquisition Team
 ** MagnitPay Team
 ** MagnitMobile Team
+** DevOps Team
+** Middleware Team
+** MagnitID Team
 ** Platform Team
 ** ProductPromo Team
-
-**[#limegreen] Infra Cluster
-*** DevOps Team
-*** Middleware Team
-*** MagnitID Team
-*** Release Team
 
 @endwbs
 @enduml
 ```
 
-#### q3-q4
+#### q2
 
 ```plantuml
 @startuml
@@ -134,24 +131,83 @@
 
 ** MagnitPay Team
 ** MagnitMobile Team
-** Content Team
-** Ecom Team
+** Release Team
 
-**[#limegreen] Loyalty Cluster
+**[#limegreen] Core Cluster
 *** Core&Retention Team
 *** Activation&Acquisition Team
 *** Platform Team
 *** ProductPromo Team
+*** Web Team
 
 **[#limegreen] Infra Cluster
 *** DevOps Team
 *** Middleware Team
 *** MagnitID Team
-*** Release Team
 
 @endwbs
 @enduml
 ```
+
+#### q3
+
+```plantuml
+@startuml
+
+@startwbs
+*[#lightskyblue] Online Department
+
+** MagnitPay Team
+** MagnitMobile Team
+** Release Team
+** Content Team
+
+**[#limegreen] Core Cluster
+*** Core&Retention Team
+*** Activation&Acquisition Team
+*** Platform Team
+*** ProductPromo Team
+*** Web Team
+
+**[#limegreen] Infra Cluster
+*** DevOps Team
+*** Middleware Team
+*** MagnitID Team
+
+@endwbs
+@enduml
+```
+
+#### q4
+
+```plantuml
+@startuml
+
+@startwbs
+*[#lightskyblue] Online Department
+
+** MagnitPay Team
+** MagnitMobile Team
+** Release Team
+** Content Team
+** In-store Team
+
+**[#limegreen] Core Cluster
+*** Core&Retention Team
+*** Activation&Acquisition Team
+*** Platform Team
+*** ProductPromo Team
+*** Web Team
+
+**[#limegreen] Infra Cluster
+*** DevOps Team
+*** Middleware Team
+*** MagnitID Team
+
+@endwbs
+@enduml
+```
+
 </details>
 
 ## Наши Грейды
