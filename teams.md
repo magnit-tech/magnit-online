@@ -2,7 +2,7 @@
 
 Продуктовые
 
-* [Retention](teams/cr.md)
+* [Retention](teams/retention.md)
 * [Activation&Acquisition](teams/2a.md)
 * [MagnitPay](teams/magnit_pay.md)
 * [MagnitMobile](teams/magnit_mobile.md)
