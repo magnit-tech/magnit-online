@@ -121,6 +121,7 @@
 *** Stocks&Prices Team
 
 ** Core Teams
+*** Release Team
 *** App Team
 *** Web Team
 *** MagnitMobile Team
