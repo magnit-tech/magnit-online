@@ -2,28 +2,43 @@
 
 Изначально есть [гигиенический минимум](minimum.md) которому должен соответствовать кандидат.
 
-* [Junior](junior.md)
-    * [iOS](ios/junior.md)
-    * [Android](android/junior.md)
-    * [Golang](golang/junior.md)
-    * [Python](python/junior.md)
-* [Middle](middle.md)
-    * [iOS](ios/middle.md)
-    * [Android](android/middle.md)
-    * [Golang](golang/middle.md)
-    * [Python](python/middle.md)
-* [Senior](senior.md)
-    * [iOS](ios/senior.md)
-    * [Android](android/senior.md)
-    * [Golang](golang/senior.md)
-    * [Python](python/senior.md)
-* [TechLead](techlead.md)
-    * [iOS](ios/techlead.md)
-    * [Android](android/techlead.md)
-    * [Golang](golang/techlead.md)
-    * [Python](python/techlead.md)
+## Android
+
+* [junior](android/junior.md)
+* [middle](android/middle.md)
+* [senior](android/senior.md)
+* [TechLead](android/techlead.md)
+
+## iOS
+
+* [junior](ios/junior.md)
+* [middle](ios/middle.md)
+* [senior](ios/senior.md)
+* [TechLead](ios/techlead.md)
+
+## Python
+
+* [junior](python/junior.md)
+* [middle](python/middle.md)
+* [senior](python/senior.md)
+* [TechLead](python/techlead.md)
+
+## Golang
+
+* [junior](golang/junior.md)
+* [middle](golang/middle.md)
+* [senior](golang/senior.md)
+* [TechLead](golang/techlead.md)
+
+
+## TeamLead
+
 * [TeamLead](teamlead.md)
+
+## ClusterLead
+
 * [ClusterLead](clusterlead.md)
+
 
 ## Алгоритм роста грейдов
 
