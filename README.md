@@ -17,9 +17,10 @@ RPS к бэкенду | 500+
 
 * [История](history.md)
 * [О нас](about.md)
-* [Миссия и ее цели, культура и ее ценности](playbook/culture.md)
-* [Команды](teams.md)
-* [Правила игры](playbook/README.md)
+* [Культура](culture.md)
+* [Команды](teams/README.md)
+* [Организационная структура](chart.md)
+* [Grades](grades/README.md)
 
 ## Контакты
 
