@@ -124,9 +124,6 @@
 *** Release Team
 *** App Team
 *** Web Team
-*** MagnitMobile Team
-*** MagnitPay Team
-
 *** CustomerNeeds Teams
 **** VirtualCard Team
 **** Activation&Acquisition Team
