@@ -7,7 +7,9 @@
 
 <details>
 <summary>История тут</summary>
+
 #### q1
+
 ```plantuml
 @startuml
 
