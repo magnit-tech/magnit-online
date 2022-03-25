@@ -8,7 +8,7 @@
 
 * Оркестрация: k8s
 * IAC: terragrunt,terraform,ansible,helm
-* CI/CD: github,gitlab
+* CI/CD: gitlab
 * Cloud: ycloud
 * gitops: flux
 * obsevability: prometheus,victoria metrics,grafana,loki,jaeger
