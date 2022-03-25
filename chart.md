@@ -123,6 +123,7 @@
 *** Stocks&Prices Team
 
 ** Core Teams
+*** Payment Team
 *** Release Team
 *** App Team
 *** Web Team
