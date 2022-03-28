@@ -14,10 +14,11 @@
 @startuml
 
 @startwbs
-*[#silver] Magnit Online Services
+*[#silver] Division: Magnit Online Services
 ** Retention Team
 ** MagnitPay Team
 ** DevOps Team
+
 @endwbs
 @enduml
 ```
@@ -28,7 +29,7 @@
 @startuml
 
 @startwbs
-*[#silver] Magnit Online Services
+*[#silver] Division: Magnit Online Services
 ** Retention Team
 ** MagnitPay Team
 ** DevOps Team
@@ -44,7 +45,7 @@
 @startuml
 
 @startwbs
-*[#silver] Online Department
+*[#silver] Division: Magnit Online Services
 ** Retention Team
 ** MagnitPay Team
 ** DevOps Team
@@ -61,7 +62,7 @@
 @startuml
 
 @startwbs
-*[#silver] Online Department
+*[#silver] Division: Magnit Online Services
 ** Retention Team
 ** MagnitPay Team
 ** DevOps Team
@@ -88,7 +89,7 @@
 
 @startwbs
 
-*[#silver] Online Department
+*[#silver] Division: Magnit Online Services
 ** Retention Team
 ** MagnitPay Team
 ** DevOps Team
@@ -110,29 +111,32 @@
 @startuml
 
 @startwbs
-*[#orange] Online Department
+*[#orange] Department: Online
 
-** DevOps Teams
-*** [... 2 Teams ...]
-
-** Ecom Teams
+**[#silver] Direction: Ecom
 *** [... 12 Teams ...]
 
-** Platform Teams
+**[#silver] DevOps Team
+*** [... 2 Teams ...]
+
+**[#silver] Department: Online Platfrom
 *** Middleware Team
 *** MagnitID Team
 *** Stocks&Prices Team
+*** [ ... ]
+*** [ ... ]
 
-**[#silver] Core Teams
+**[#silver] Direction: Magnit Online Services
 *** Payment Team
 *** Release Team
 *** App Team
 *** Web Team
-***[#tan] CustomerNeeds Teams
+***[#tan] Department: Customer Needs
 **** Retention Team
 **** Activation&Acquisition Team
 **** ProductPromo Team
 **** UserReview Team
+**** [ ... ]
 
 @endwbs
 @enduml
