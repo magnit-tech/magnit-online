@@ -6,7 +6,7 @@
 ### 2021
 
 <details>
-<summary>История тут</summary>
+<summary>Развернуть/свернуть</summary>
 
 #### q1
 
@@ -80,7 +80,7 @@
 ### 2022
 
 <details>
-<summary>Планы тут</summary>
+<summary>Развернуть/свернуть</summary>
 
 #### q1
 
