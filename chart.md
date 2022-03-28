@@ -117,7 +117,6 @@
 *** [... 12 Teams ...]
 
 **[#silver] DevOps Team
-*** [... 2 Teams ...]
 
 **[#silver] Department: Online Platfrom
 *** Middleware Team
