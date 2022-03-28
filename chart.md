@@ -14,7 +14,7 @@
 @startuml
 
 @startwbs
-*[#lightskyblue] Online Department
+*[#silver] Magnit Online Services
 ** Retention Team
 ** MagnitPay Team
 ** DevOps Team
@@ -28,8 +28,8 @@
 @startuml
 
 @startwbs
-*[#lightskyblue] Online Department
-** Core&Retention Team
+*[#silver] Magnit Online Services
+** Retention Team
 ** MagnitPay Team
 ** DevOps Team
 ** Middleware Team
@@ -44,13 +44,13 @@
 @startuml
 
 @startwbs
-*[#lightskyblue] Online Department
-** Core&Retention Team
-** Activation&Acquisition Team
+*[#silver] Online Department
+** Retention Team
 ** MagnitPay Team
 ** DevOps Team
 ** Middleware Team
 ** MagnitMobile Team
+** Activation&Acquisition Team
 @endwbs
 @enduml
 ```
@@ -61,13 +61,13 @@
 @startuml
 
 @startwbs
-*[#lightskyblue] Online Department
-** Core&Retention Team
-** Activation&Acquisition Team
+*[#silver] Online Department
+** Retention Team
 ** MagnitPay Team
-** MagnitMobile Team
 ** DevOps Team
 ** Middleware Team
+** MagnitMobile Team
+** Activation&Acquisition Team
 ** MagnitID Team
 @endwbs
 @enduml
@@ -88,16 +88,17 @@
 
 @startwbs
 
-*[#lightskyblue] Online Department
+*[#silver] Online Department
 ** Retention Team
-** Activation&Acquisition Team
 ** MagnitPay Team
-** MagnitMobile Team
 ** DevOps Team
 ** Middleware Team
+** MagnitMobile Team
+** Activation&Acquisition Team
 ** MagnitID Team
 ** Platform Team
 ** ProductPromo Team
+** Release Team
 
 @endwbs
 @enduml
@@ -109,7 +110,7 @@
 @startuml
 
 @startwbs
-*[#lightskyblue] Online Department
+*[#orange] Online Department
 
 ** DevOps Teams
 *** [... 2 Teams ...]
@@ -122,13 +123,13 @@
 *** MagnitID Team
 *** Stocks&Prices Team
 
-** Core Teams
+**[#silver] Core Teams
 *** Payment Team
 *** Release Team
 *** App Team
 *** Web Team
-*** CustomerNeeds Teams
-**** VirtualCard Team
+***[#tan] CustomerNeeds Teams
+**** Retention Team
 **** Activation&Acquisition Team
 **** ProductPromo Team
 **** UserReview Team
