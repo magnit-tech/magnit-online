@@ -14,7 +14,7 @@
 @startuml
 
 @startwbs
-*[#silver] Division: Magnit Online Services
+*[#silver] Division: Online Services
 ** Retention Team
 ** MagnitPay Team
 ** DevOps Team
@@ -29,7 +29,7 @@
 @startuml
 
 @startwbs
-*[#silver] Division: Magnit Online Services
+*[#silver] Division: Online Services
 ** Retention Team
 ** MagnitPay Team
 ** DevOps Team
@@ -45,7 +45,7 @@
 @startuml
 
 @startwbs
-*[#silver] Division: Magnit Online Services
+*[#silver] Division: Online Services
 ** Retention Team
 ** MagnitPay Team
 ** DevOps Team
@@ -62,7 +62,7 @@
 @startuml
 
 @startwbs
-*[#silver] Division: Magnit Online Services
+*[#silver] Division: Online Services
 ** Retention Team
 ** MagnitPay Team
 ** DevOps Team
@@ -89,7 +89,7 @@
 
 @startwbs
 
-*[#silver] Division: Magnit Online Services
+*[#silver] Division: Online Services
 ** Retention Team
 ** MagnitPay Team
 ** DevOps Team
@@ -125,7 +125,7 @@
 *** [ ... ]
 *** [ ... ]
 
-**[#silver] Direction: Magnit Online Services
+**[#silver] Direction: Online Services
 *** Payment Team
 *** Release Team
 *** App Team
