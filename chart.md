@@ -118,7 +118,7 @@
 
 **[#silver] DevOps Team
 
-**[#silver] Department: Online Platfrom
+**[#silver] Division: Online Platfrom
 *** Middleware Team
 *** MagnitID Team
 *** Stocks&Prices Team
@@ -130,7 +130,7 @@
 *** Release Team
 *** App Team
 *** Web Team
-***[#tan] Department: Customer Needs
+***[#tan] Division: Customer Needs
 **** Retention Team
 **** Activation&Acquisition Team
 **** ProductPromo Team
