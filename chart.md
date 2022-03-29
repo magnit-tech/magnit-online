@@ -118,7 +118,7 @@
 
 **[#silver] DevOps Team
 
-**[#silver] Division: Online Platfrom
+**[#silver] Division: Online Platform
 *** Middleware Team
 *** MagnitID Team
 *** Stocks&Prices Team
