@@ -16,4 +16,3 @@
 
 * [backend go](tech/golang.md)
 * [backend python](tech/python.md)
-
