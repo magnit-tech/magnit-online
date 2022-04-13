@@ -14,7 +14,7 @@
 @startuml
 
 @startwbs
-*[#silver] Division: Online Services
+*[#silver] Division: Core Services
 ** Retention Team
 ** MagnitPay Team
 ** DevOps Team
@@ -29,7 +29,7 @@
 @startuml
 
 @startwbs
-*[#silver] Division: Online Services
+*[#silver] Division: Core Services
 ** Retention Team
 ** MagnitPay Team
 ** DevOps Team
@@ -45,7 +45,7 @@
 @startuml
 
 @startwbs
-*[#silver] Division: Online Services
+*[#silver] Division: Core Services
 ** Retention Team
 ** MagnitPay Team
 ** DevOps Team
@@ -62,7 +62,7 @@
 @startuml
 
 @startwbs
-*[#silver] Division: Online Services
+*[#silver] Division: Core Services
 ** Retention Team
 ** MagnitPay Team
 ** DevOps Team
@@ -89,7 +89,7 @@
 
 @startwbs
 
-*[#silver] Division: Online Services
+*[#silver] Division: Core
 ** Retention Team
 ** MagnitPay Team
 ** DevOps Team
@@ -114,27 +114,35 @@
 *[#orange] Department: Online
 
 **[#silver] Direction: Ecom
-*** [... 12 Teams ...]
+*** Выбор Team
+*** Покупка Team
+*** Маркетинг Team
+*** OMS/CRM Team
+*** Payment Team
+*** Collect Team
+*** Delivery Team
+*** Courier Team
+*** Partners Team
 
 **[#silver] DevOps Team
 
-**[#silver] Division: Online Platform
+**[#silver] Division: Platform
 *** Middleware Team
 *** MagnitID Team
-*** Stocks&Prices Team
+*** Search Team
 *** [ ... ]
 *** [ ... ]
 
-**[#silver] Direction: Online Services
-*** Payment Team
+**[#silver] Direction: Core
+*** Checkout Team
 *** Release Team
-*** App Team
-*** Web Team
+*** AppBase Team
+*** WebBase Team
 ***[#tan] Division: Customer Needs
-**** Retention Team
-**** Activation&Acquisition Team
-**** ProductPromo Team
-**** UserReview Team
+**** VirtualCard Team
+**** ExtraValue Team
+**** Product Catalog&Promo Team
+**** UserReviews Team
 **** [ ... ]
 
 @endwbs

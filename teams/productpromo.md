@@ -1,3 +1,3 @@
-# ProductPromo
+# Product Catalog&Promo
 
 tbd
