@@ -5,7 +5,7 @@
 Ниже перечислены команды без привязки к их организацонной структуре внутри разных департаментов.
 
 * [VirtualCard](virtualcard.md)
-* [MagnitPay](magnit_pay.md)
+* [Checkout](checkout.md)
 * [DevOps](devops.md)
 * [Middleware](middleware.md)
 * [MagnitMobile](magnit_mobile.md)
