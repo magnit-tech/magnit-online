@@ -6,7 +6,8 @@
 
 * [VirtualCard](virtualcard.md)
 * [Checkout](checkout.md)
-* [DevOps](devops.md)
+* [DevOps_core](devops_core.md)
+* [DevOps_ecom](devops_ecom.md)
 * [Middleware](middleware.md)
 * [MagnitMobile](magnit_mobile.md)
 * [ExtraValue](extravalue.md)
