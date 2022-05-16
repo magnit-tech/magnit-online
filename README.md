@@ -19,7 +19,7 @@ RPS к бэкенду | 1000+
 * [О нас](about.md)
 * [Культура](culture.md)
 * [Команды](teams/README.md)
-* [Организационная структура](chart.md)
+* [Организационная структура](org_chart.md)
 * [Grades](grades/README.md)
 
 ## Контакты
