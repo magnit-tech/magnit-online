@@ -1,4 +1,3 @@
-
 # Org Chart
 
 ## История формирования команд
@@ -130,7 +129,7 @@
 *** Middleware Team
 *** MagnitID Team
 *** Search Team
-*** [ ... ]
+*** Reviews Team
 *** [ ... ]
 
 **[#silver] Direction: Core
