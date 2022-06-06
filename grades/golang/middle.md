@@ -1,3 +1,0 @@
-# Middle
-
-tbd
