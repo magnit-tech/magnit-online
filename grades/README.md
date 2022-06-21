@@ -16,19 +16,13 @@
 * [senior](ios/senior.md)
 * [TechLead](ios/techlead.md)
 
-## Python
+## Backend
 
-* [junior](python/junior.md)
-* [middle](python/middle.md)
-* [senior](python/senior.md)
-* [TechLead](python/techlead.md)
-
-## Golang
-
-* [junior](golang/junior.md)
-* [middle](golang/middle.md)
-* [senior](golang/senior.md)
-* [TechLead](golang/techlead.md)
+* [intern](backend/intern.md)
+* [junior](backend/junior.md)
+* [middle](backend/middle.md)
+* [senior](backend/senior.md)
+* [TechLead](backend/techlead.md)
 
 
 ## TeamLead
