@@ -18,7 +18,6 @@
 
 ## Backend
 
-* [intern](backend/intern.md)
 * [junior](backend/junior.md)
 * [middle](backend/middle.md)
 * [senior](backend/senior.md)
