@@ -1,3 +1,0 @@
-# TechLead
-
-tbd

@@ -1,3 +1,0 @@
-# Junior
-
-tbd
