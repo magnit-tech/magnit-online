@@ -6,9 +6,11 @@
 
 ## Используемые технологии и инструменты
 
-* IAC: terraform,ansible
+* Оркестрация: k8s
+* IAC: terragrunt,terraform,ansible,helm
 * CI/CD: gitlab
-* Cloud: VKcloud
-* obsevability: prometheus,zabbix,grafana,elk,appdynamics
-* Other: ha-proxy,nginx,postgres,mysql,minio,redis and etc
+* Cloud: VKcloud migration to ycloud
+* obsevability: prometheus,zabbix,grafana,elk,loki,victoriametrics
+* gitops: flux
+* Other: ha-proxy,nginx,postgres,mysql,minio,redis,vault and etc
 
