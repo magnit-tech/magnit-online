@@ -24,5 +24,5 @@ RPS к бэкенду | 1000+
 
 ## Контакты
 
-* [Корпоративный сайт](https://www.magnit.tech/online-development)
-* [Head of development](http://t.me/arxell)
+* [Корпоративный сайт](https://www.magnit.tech/)
+* [Руководитель отдела разработки онлайн платформы](http://t.me/arxell)

@@ -20,8 +20,9 @@
 
 ### Сайты
 
-* [moy.magnit.ru](https://moy.magnit.ru/)
+* [my.magnit.ru](https://my.magnit.ru/)
 * [magnit.ru](https://magnit.ru/)
+* [dostavka.magnit.ru](https://dostavka.magnit.ru/)
 
 ## О процессах
 
@@ -30,10 +31,10 @@
 ## Используем
 
 * gitlab (Premium SaaS Plan)
-* yandex cloud для инфраструктуры
-* jira для задач
-* confluence для документации
-* testrail для тест кейсов
+* yandex cloud - для инфраструктуры
+* jira - для задач
+* confluence - для документации
+* testrail/testit - для тест кейсов
 * продуктовый подход: Agile-манифест для нас — не красивая бумажка на стене, а постоянный ориентир для принятия решений
 * работаем территориально распределенной командой, ты можешь присоединиться к нам из любой точки России
 
@@ -49,6 +50,7 @@
 * [swift](tech/swift.md)
 * [go](tech/golang.md)
 * [python](tech/python.md)
+* [php](tech/php.md)
 
 ## А еще
 

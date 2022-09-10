@@ -8,11 +8,10 @@
 
 Мы ответственны за такие сервисы как:
 
-* **auth-v2** - Identity service
-* **profiles** - Cервис хранения информации о профилях покупателей
-* **gateway** - API Gateway для взаимодействия между клиентами и микросервисами
+* **auth** - Identity service;
+* **profiles** - cервис хранения информации о профилях покупателей;
+* **magnitid** - API Gateway для сервисов авторизации;
 
 ## Используемые технологии и инструменты
 
-* [backend go](tech/golang.md)
-* [backend python](tech/python.md)
+* [golang](tech/golang.md)
