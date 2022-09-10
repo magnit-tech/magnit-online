@@ -20,9 +20,11 @@
 
 ### Сайты
 
-* [my.magnit.ru](https://my.magnit.ru/)
-* [magnit.ru](https://magnit.ru/)
+* [apteka.magnit.ru](https://apteka.magnit.ru/)
 * [dostavka.magnit.ru](https://dostavka.magnit.ru/)
+* [magnit.ru](https://magnit.ru/)
+* [magnitcosmetic](https://magnitcosmetic.ru/)
+* [my.magnit.ru](https://my.magnit.ru/)
 
 ## О процессах
 
