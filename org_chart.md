@@ -129,7 +129,7 @@
 *** Middleware Team
 *** MagnitID Team
 *** Search Team
-*** Reviews Team
+*** UGC Team
 
 **[#silver] Direction: Core
 *** Checkout Team
@@ -176,7 +176,7 @@
 *** Middleware Team
 *** MagnitID Team
 *** Search Team
-*** Reviews Team
+*** UGC Team
 
 **[#silver] Direction: Core
 *** Checkout Team
