@@ -26,3 +26,4 @@ RPS к бэкенду | 1000+
 
 * [Корпоративный сайт](https://www.magnit.tech/)
 * [Руководитель отдела разработки онлайн платформы](http://t.me/arxell)
+* [Head of devops](http://t.me/impel1o)
