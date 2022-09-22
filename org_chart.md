@@ -129,20 +129,66 @@
 *** Middleware Team
 *** MagnitID Team
 *** Search Team
-*** Reviews Team
-*** [ ... ]
+*** UGC Team
 
 **[#silver] Direction: Core
 *** Checkout Team
 *** Release Team
 *** AppBase Team
 *** WebBase Team
-***[#tan] Division: Customer Needs
+***[#tan] Division: Client Needs
 **** VirtualCard Team
 **** ExtraValue Team
 **** Product Catalog&Promo Team
 **** UserReviews Team
 **** [ ... ]
+
+@endwbs
+@enduml
+```
+
+#### q3
+
+```plantuml
+@startuml
+
+@startwbs
+*[#orange] Department: Online
+
+**[#silver] Division: Ecom.Clients
+*** Partners Team
+*** Choice Team
+*** Marketing Team
+*** OMS/CRM Team
+*** Purchase Team
+
+**[#silver] Division: Ecom.Operations
+*** Payment Team
+*** Assembly Team
+*** Delovery Team
+*** OMS Team
+
+**[#silver] Division: DevOps
+*** Ecom Team
+*** Core Team
+
+**[#silver] Division: Platform
+*** Middleware Team
+*** MagnitID Team
+*** Search Team
+*** UGC Team
+
+**[#silver] Direction: Core
+*** Checkout Team
+*** Release Team
+*** AppBase Team
+*** WebBase Team
+***[#tan] Division: Client Needs
+**** VirtualCard Team
+**** ExtraValue Team
+**** Product Catalog&Promo Team
+**** OnlineJournal Team
+**** UserReviews Team
 
 @endwbs
 @enduml

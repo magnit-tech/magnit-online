@@ -20,8 +20,11 @@
 
 ### Сайты
 
-* [moy.magnit.ru](https://moy.magnit.ru/)
+* [apteka.magnit.ru](https://apteka.magnit.ru/)
+* [dostavka.magnit.ru](https://dostavka.magnit.ru/)
 * [magnit.ru](https://magnit.ru/)
+* [magnitcosmetic](https://magnitcosmetic.ru/)
+* [my.magnit.ru](https://my.magnit.ru/)
 
 ## О процессах
 
@@ -30,16 +33,21 @@
 ## Используем
 
 * gitlab (Premium SaaS Plan)
-* yandex cloud для инфраструктуры
-* jira для задач
-* confluence для документации
-* testrail для тест кейсов
+* yandex cloud - для инфраструктуры
+* jira - для задач
+* confluence - для документации
+* testrail/testit - для тест кейсов
 * продуктовый подход: Agile-манифест для нас — не красивая бумажка на стене, а постоянный ориентир для принятия решений
+
+## График работы
+
 * работаем территориально распределенной командой, ты можешь присоединиться к нам из любой точки России
+* есть новый современный офис в Москве в [БЦ Большевик](http://bc-bolshevik.ru/)
+* есть офис в [innopolis](https://innopolis.com/)
 
 ## Оборудование и техника
 
-Выдаем macbook 13" на m1  + монитор LG 4k 27" или macbook 16", закупаем нужны софт для разработки.
+Выдаем macbook 13" + монитор 4k 27" или macbook 16", закупаем нужны софт для разработки.
 
 ## Технологии и инструменты
 
@@ -49,6 +57,7 @@
 * [swift](tech/swift.md)
 * [go](tech/golang.md)
 * [python](tech/python.md)
+* [php](tech/php.md)
 
 ## А еще
 

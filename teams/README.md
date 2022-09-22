@@ -2,7 +2,7 @@
 
 Сегодня онлайн-разработка в «Магните» — самый молодой и автономный юнит, который быстро взаимодействует, строит процессы по принципу здравого смысла и пользы, использует продуктовый подход. Всего в IT «Магнит» больше 2500 инженеров, которые поддерживают и развивают IT-инфраструктуру всей федеральной сети.
 
-## Продуктовые команды
+## Stream-aligned Teams
 
 Кроссфункциональные команды, где есть представители всех направлений: iOS, Android, backend, QA, дизайн, аналитики. Работают по scrum, двухнедельными спринтами, со всеми его стандартными активностями.
 
@@ -14,14 +14,16 @@
 * [VirtualCard](virtualcard.md)
 * [WebBase](web.md)
 
-## Платформенные команды
+## Platform Teams
 
 * [Middleware](middleware.md)
 * [MagnitID](magnit_id.md)
+* [UGC](ugc.md)
+* [Search](search.md)
 
-## Вспомогательные и инфраструктурные команды
+## Enabling Teams
 
-* [DevOps_core](devops_core.md)
-* [DevOps_ecom](devops_ecom.md)
-* [DevOps_platform](devops_platform.md)
+* [DevOps Core](devops_core.md)
+* [DevOps Ecom](devops_ecom.md)
+* [DevOps Platform](devops_platform.md)
 * [Release](release.md)
