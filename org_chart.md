@@ -14,54 +14,16 @@
 
 #### q2
 
-```plantuml
-@startuml
-
-@startwbs
-*[#silver] Division: Core Services
-** Retention Team
-** MagnitPay Team
-** DevOps Team
-** Middleware Team
-** MagnitMobile Team
-@endwbs
-@enduml
-```
+![your-UML-diagram-name](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/magnit-tech/magnit-online-services-docs/try-to-fix-plantuml/plantuml/org_chart_2021_q2.iuml)
 
 #### q3
 
-```plantuml
-@startuml
+![your-UML-diagram-name](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/magnit-tech/magnit-online-services-docs/try-to-fix-plantuml/plantuml/org_chart_2021_q3.iuml)
 
-@startwbs
-*[#silver] Division: Core Services
-** Retention Team
-** MagnitPay Team
-** DevOps Team
-** Middleware Team
-** MagnitMobile Team
-** Activation&Acquisition Team
-@endwbs
-@enduml
-```
 
 #### q4
 
-```plantuml
-@startuml
-
-@startwbs
-*[#silver] Division: Core Services
-** Retention Team
-** MagnitPay Team
-** DevOps Team
-** Middleware Team
-** MagnitMobile Team
-** Activation&Acquisition Team
-** MagnitID Team
-@endwbs
-@enduml
-```
+![your-UML-diagram-name](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/magnit-tech/magnit-online-services-docs/try-to-fix-plantuml/plantuml/org_chart_2021_q4.iuml)
 
 </details>
 
@@ -73,116 +35,15 @@
 
 #### q1
 
-```plantuml
-@startuml
-
-@startwbs
-
-*[#silver] Division: Core
-** Retention Team
-** MagnitPay Team
-** DevOps Team
-** Middleware Team
-** MagnitMobile Team
-** Activation&Acquisition Team
-** MagnitID Team
-** Platform Team
-** ProductPromo Team
-** Release Team
-
-@endwbs
-@enduml
-```
+![your-UML-diagram-name](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/magnit-tech/magnit-online-services-docs/try-to-fix-plantuml/plantuml/org_chart_2022_q1.iuml)
 
 #### q2
 
-```plantuml
-@startuml
-
-@startwbs
-*[#orange] Department: Online
-
-**[#silver] Direction: Ecom
-*** Выбор Team
-*** Покупка Team
-*** Маркетинг Team
-*** OMS/CRM Team
-*** Payment Team
-*** Collect Team
-*** Delivery Team
-*** Courier Team
-*** Partners Team
-
-**[#silver] DevOps Team
-
-**[#silver] Division: Platform
-*** Middleware Team
-*** MagnitID Team
-*** Search Team
-*** UGC Team
-
-**[#silver] Direction: Core
-*** Checkout Team
-*** Release Team
-*** AppBase Team
-*** WebBase Team
-***[#tan] Division: Client Needs
-**** VirtualCard Team
-**** ExtraValue Team
-**** Product Catalog&Promo Team
-**** UserReviews Team
-**** [ ... ]
-
-@endwbs
-@enduml
-```
+![your-UML-diagram-name](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/magnit-tech/magnit-online-services-docs/try-to-fix-plantuml/plantuml/org_chart_2022_q2.iuml)
 
 #### q3
 
-```plantuml
-@startuml
-
-@startwbs
-*[#orange] Department: Online
-
-**[#silver] Division: Ecom.Clients
-*** Partners Team
-*** Choice Team
-*** Marketing Team
-*** OMS/CRM Team
-*** Purchase Team
-
-**[#silver] Division: Ecom.Operations
-*** Payment Team
-*** Assembly Team
-*** Delovery Team
-*** OMS Team
-
-**[#silver] Division: DevOps
-*** Ecom Team
-*** Core Team
-
-**[#silver] Division: Platform
-*** Middleware Team
-*** MagnitID Team
-*** Search Team
-*** UGC Team
-
-**[#silver] Direction: Core
-*** Checkout Team
-*** Release Team
-*** AppBase Team
-*** WebBase Team
-***[#tan] Division: Client Needs
-**** VirtualCard Team
-**** ExtraValue Team
-**** Product Catalog&Promo Team
-**** OnlineJournal Team
-**** UserReviews Team
-
-@endwbs
-@enduml
-```
+![your-UML-diagram-name](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/magnit-tech/magnit-online-services-docs/try-to-fix-plantuml/plantuml/org_chart_2022_q3.iuml)
 
 </details>
 

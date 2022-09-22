@@ -1,0 +1,18 @@
+@startuml
+
+@startwbs
+
+*[#silver] Division: Core
+** Retention Team
+** MagnitPay Team
+** DevOps Team
+** Middleware Team
+** MagnitMobile Team
+** Activation&Acquisition Team
+** MagnitID Team
+** Platform Team
+** ProductPromo Team
+** Release Team
+
+@endwbs
+@enduml

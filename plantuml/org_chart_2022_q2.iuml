@@ -1,0 +1,38 @@
+@startuml
+
+@startwbs
+*[#orange] Department: Online
+
+**[#silver] Direction: Ecom
+*** Выбор Team
+*** Покупка Team
+*** Маркетинг Team
+*** OMS/CRM Team
+*** Payment Team
+*** Collect Team
+*** Delivery Team
+*** Courier Team
+*** Partners Team
+
+**[#silver] DevOps Team
+
+**[#silver] Division: Platform
+*** Middleware Team
+*** MagnitID Team
+*** Search Team
+*** UGC Team
+
+**[#silver] Direction: Core
+*** Checkout Team
+*** Release Team
+*** AppBase Team
+*** WebBase Team
+***[#tan] Division: Client Needs
+**** VirtualCard Team
+**** ExtraValue Team
+**** Product Catalog&Promo Team
+**** UserReviews Team
+**** [ ... ]
+
+@endwbs
+@enduml
