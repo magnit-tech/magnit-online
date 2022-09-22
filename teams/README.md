@@ -25,4 +25,5 @@
 
 * [DevOps Core](devops_core.md)
 * [DevOps Ecom](devops_ecom.md)
+* [DevOps Platform](devops_platform.md)
 * [Release](release.md)
