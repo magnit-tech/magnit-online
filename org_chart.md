@@ -9,21 +9,21 @@
 
 #### q1
 
-![your-UML-diagram-name](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/magnit-tech/magnit-online-services-docs/try-to-fix-plantuml/plantuml/org_chart_2021_q1.iuml)
+![your-UML-diagram-name](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/magnit-tech/magnit-online-services-docs/master/plantuml/org_chart_2021_q1.iuml)
 
 
 #### q2
 
-![your-UML-diagram-name](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/magnit-tech/magnit-online-services-docs/try-to-fix-plantuml/plantuml/org_chart_2021_q2.iuml)
+![your-UML-diagram-name](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/magnit-tech/magnit-online-services-docs/master/plantuml/org_chart_2021_q2.iuml)
 
 #### q3
 
-![your-UML-diagram-name](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/magnit-tech/magnit-online-services-docs/try-to-fix-plantuml/plantuml/org_chart_2021_q3.iuml)
+![your-UML-diagram-name](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/magnit-tech/magnit-online-services-docs/master/plantuml/org_chart_2021_q3.iuml)
 
 
 #### q4
 
-![your-UML-diagram-name](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/magnit-tech/magnit-online-services-docs/try-to-fix-plantuml/plantuml/org_chart_2021_q4.iuml)
+![your-UML-diagram-name](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/magnit-tech/magnit-online-services-docs/master/plantuml/org_chart_2021_q4.iuml)
 
 </details>
 
@@ -35,19 +35,19 @@
 
 #### q1
 
-![your-UML-diagram-name](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/magnit-tech/magnit-online-services-docs/try-to-fix-plantuml/plantuml/org_chart_2022_q1.iuml)
+![your-UML-diagram-name](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/magnit-tech/magnit-online-services-docs/master/plantuml/org_chart_2022_q1.iuml)
 
 #### q2
 
-![your-UML-diagram-name](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/magnit-tech/magnit-online-services-docs/try-to-fix-plantuml/plantuml/org_chart_2022_q2.iuml)
+![your-UML-diagram-name](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/magnit-tech/magnit-online-services-docs/master/plantuml/org_chart_2022_q2.iuml)
 
 #### q3
 
-![your-UML-diagram-name](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/magnit-tech/magnit-online-services-docs/try-to-fix-plantuml/plantuml/org_chart_2022_q3.iuml)
+![your-UML-diagram-name](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/magnit-tech/magnit-online-services-docs/master/plantuml/org_chart_2022_q3.iuml)
 
 #### q4
 
-![your-UML-diagram-name](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/magnit-tech/magnit-online-services-docs/try-to-fix-plantuml/plantuml/org_chart_2022_q4.iuml)
+![your-UML-diagram-name](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/magnit-tech/magnit-online-services-docs/master/plantuml/org_chart_2022_q4.iuml)
 
 </details>
 
