@@ -45,6 +45,10 @@
 
 ![your-UML-diagram-name](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/magnit-tech/magnit-online-services-docs/try-to-fix-plantuml/plantuml/org_chart_2022_q3.iuml)
 
+#### q4
+
+![your-UML-diagram-name](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/magnit-tech/magnit-online-services-docs/try-to-fix-plantuml/plantuml/org_chart_2022_q4.iuml)
+
 </details>
 
 ## Виды команд и почему они у нас такие
