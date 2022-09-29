@@ -2,7 +2,7 @@
 
 ## Команда
 
-Команда отвечает за развитие инфраструктуры,платформы и конвеера приложения Магнит Доставка.
+Команда отвечает за развитие инфраструктуры,платформы и конвеера приложения Магнит Доставка, Магнит Аптеки, их бэкендов и смежных сервисов.
 
 ## Используемые технологии и инструменты
 
@@ -10,7 +10,9 @@
 * IAC: terragrunt,terraform,ansible,helm
 * CI/CD: gitlab
 * Cloud: VKcloud migration to ycloud
-* obsevability: prometheus,zabbix,grafana,elk,loki,victoriametrics
+* obsevability: prometheus,grafana,elk,loki,victoriametrics
 * gitops: flux
-* Other: ha-proxy,nginx,postgres,mysql,minio,redis,vault and etc
+* Other: ha-proxy,nginx,postgres,mysql,redis,kafka,rabbitmq,vault and etc
 
+Мы работаем по scrum и оцениваем задачи в стори-поинтах, а не человеко-часах.
+Мы активно обучаем друг друга, помогаем и всегда открыты к диалогу.
