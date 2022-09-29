@@ -6,13 +6,15 @@
 
 Кроссфункциональные команды, где есть представители всех направлений: iOS, Android, backend, QA, дизайн, аналитики. Работают по scrum, двухнедельными спринтами, со всеми его стандартными активностями.
 
-* [AppBase](app.md)
+* [Acquisition](acquisition.md)
+* [App Base](app.md)
 * [Checkout](checkout.md)
-* [ExtraValue](extravalue.md)
-* [MagnitMobile](magnit_mobile.md)
-* [Product Catalog & Promo](productpromo.md)
-* [VirtualCard](virtualcard.md)
-* [WebBase](web.md)
+* [Extra Value](extra_value.md)
+* [Online Journal](online_journal.md)
+* [Product Catalog & Promo](product_promo.md)
+* [User Reviews](user_reviews.md)
+* [Virtual Card](virtual_card.md)
+* [Web Base](web.md)
 
 ## Platform Teams
 
