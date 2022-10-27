@@ -1,4 +1,4 @@
-# UGC
+# Stocks&Prices
 
 tbd
 
@@ -8,14 +8,12 @@ tbd
 
 ## Сервисы
 
-* **UGC-trigger** - tbd
-* **UGC-storage** - tbd
-* **UGC-result** - tbd
+* **stocks** - tbd
+* **prices** - tbd
 
 ## Используемые технологии и инструменты
 
-* [python](tech/python.md)
+* [golang](tech/golang.md)
 * postgres
-* redis
 * rabbitmq
 * kafka

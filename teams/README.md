@@ -22,6 +22,7 @@
 * [MagnitID](magnit_id.md)
 * [UGC](ugc.md)
 * [Search](search.md)
+* [Stocks&Prices](stocks_and_prices.md)
 
 ## Enabling Teams
 
