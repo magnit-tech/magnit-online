@@ -35,29 +35,4 @@
 
 ## Алгоритм роста грейдов
 
-```plantuml
-@startuml
-
-start
-
-:Junior;
-:Middle;
-:Senior;
-
-if (Хочешь управлять командой?) then (да)
-    : TeamLead;
-    note left: управляет людьми
-    :ClusterLead;
-    note right: управляет большим блоком разработки, где в блоке n команд
-    :HeadOfIT;
-    note right: управляет отделом разработки, где в отделе n блоков и m команд
-else (нет)
-    :TechLead;
-    note right: управляет архитектурой внутри своей предметной области
-    :Architect;
-    note right: управляет верхнеуровневой архитектурой
-endif
-
-stop
-@enduml
-```
+![your-UML-diagram-name](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/magnit-tech/magnit-online-services-docs/master/plantuml/grades.iuml)
