@@ -21,6 +21,7 @@ RPS к бэкенду | 1000+
 * [Команды](teams/README.md)
 * [Организационная структура](org_chart.md)
 * [Grades](grades/README.md)
+* [Гильдии](guild.md)
 
 ## Контакты
 
