@@ -22,6 +22,11 @@ RPS к бэкенду | 2000+
 * [Grades](grades/README.md)
 * [Гильдии](guild.md)
 
+## Полезные ссылки
+
+* [Технологический Радар](https://radar.thoughtworks.com/?sheetId=https://raw.githubusercontent.com/magnit-tech/magnit-online-services-docs/master/Tech_Radar_Magnit_Online.csv)
+
+
 ## Контакты
 
 * [Корпоративный сайт](https://www.magnit.tech/)
