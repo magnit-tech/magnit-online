@@ -26,10 +26,10 @@ RPS к бэкенду | 2000+
 ## Полезные ссылки
 
 * [Технологический Радар](https://radar.thoughtworks.com/?sheetId=https://raw.githubusercontent.com/magnit-tech/magnit-online-services-docs/master/Tech_Radar_Magnit_Online.csv)
-
+* [Habr](https://habr.com/ru/company/magnit/blog/)
+* [Корпоративный сайт](https://www.magnit.tech/)
 
 ## Контакты
 
-* [Корпоративный сайт](https://www.magnit.tech/)
-* [Руководитель отдела разработки онлайн платформы](http://t.me/arxell)
+* [Head of Online Platform](http://t.me/arxell)
 * [Head of devops](http://t.me/impel1o)
