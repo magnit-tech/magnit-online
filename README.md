@@ -29,6 +29,7 @@ RPS к бэкенду | 2000+
 * [Технологический Радар](https://radar.thoughtworks.com/?sheetId=https://raw.githubusercontent.com/magnit-tech/magnit-online-services-docs/master/Tech_Radar_Magnit_Online.csv)
 * [Habr](https://habr.com/ru/company/magnit/blog/)
 * [Корпоративный сайт](https://www.magnit.tech/)
+* [Вакансии](https://www.magnit.tech/vacancies/)
 
 ## Контакты
 
