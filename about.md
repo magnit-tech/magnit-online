@@ -58,6 +58,7 @@
 * [go](tech/golang.md)
 * [python](tech/python.md)
 * [php](tech/php.md)
+* [js](tech/js.md)
 
 ## А еще
 
