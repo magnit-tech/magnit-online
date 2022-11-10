@@ -17,6 +17,7 @@
 * [User Reviews](user_reviews.md)
 * [Virtual Card](virtual_card.md)
 * [Web Base](web.md)
+* [Release](release.md)
 
 ## Platform Teams
 
@@ -44,7 +45,15 @@
 
 "Разблокирующая" команда организована для оказания помощи другим командам в специализированных возможностях и помощи в освоении новых технологий.
 
+В зоне ответственности отдела devops находятся:
+  - инфраструктура
+  - платформа
+  - конвеер
+
+### Команды
+
 * [DevOps Core](devops_core.md)
 * [DevOps Ecom](devops_ecom.md)
 * [DevOps Platform](devops_platform.md)
-* [Release](release.md)
+* [DevOps Gastronom](devops_gastronom.md)
+* [DevOps Analytics](devops_analytics.md)
