@@ -30,8 +30,4 @@ RPS к бэкенду | 2000+
 * [Habr](https://habr.com/ru/company/magnit/blog/)
 * [Корпоративный сайт](https://www.magnit.tech/)
 * [Вакансии](https://www.magnit.tech/vacancies/)
-
-## Контакты
-
-* [Head of Online Platform](http://t.me/arxell)
-* [Head of devops](http://t.me/impel1o)
+* [Контакты](contacts.md)
