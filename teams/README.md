@@ -8,6 +8,7 @@
 
 Кроссфункциональные команды, где есть представители всех направлений: iOS, Android, backend, QA, дизайн, аналитики. Работают по scrum, двухнедельными спринтами, со всеми его стандартными активностями.
 
+### Команды приложения магнит: акции и скидки и сайтов magnit.ru magnitcosmetic.ru
 * [Acquisition](acquisition.md)
 * [App Base](app.md)
 * [Checkout](checkout.md)
@@ -18,6 +19,24 @@
 * [Virtual Card](virtual_card.md)
 * [Web Base](web.md)
 * [Release](release.md)
+
+### Команды клинеских сервисов доставки.  
+* [Attraction](attraction.md)
+* [Choice](choice.md)
+* [Purchaise](purchaise.md)
+* [Retention](retention.md)
+* [Integration](integration.md)
+* [Core/Optimizations](optimization.md)
+
+### Команды операционных сервисов доставки
+* [OMS](oms.md)
+* [Payment](payment.md)
+* [Collect](collect.md)
+* [Delivery](delivery.md)
+* [UserSupport](user_support.md)
+* [Pharmacy](pharmacy.md)
+
+
 
 ## Platform Teams
 
