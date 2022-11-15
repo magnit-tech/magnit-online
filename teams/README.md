@@ -20,7 +20,7 @@
 * [Web Base](web.md)
 * [Release](release.md)
 
-### Команды клинеских сервисов доставки.  
+### Команды клиентских сервисов доставки.  
 * [Attraction](attraction.md)
 * [Choice](choice.md)
 * [Purchaise](purchaise.md)

@@ -5,7 +5,7 @@
 ### 2021
 
 <details>
-<summary>Развернуть/свернуть</summary>
+<summary>Развернуть/свернуть</summary>Ø
 
 #### q1
 
