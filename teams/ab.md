@@ -19,8 +19,8 @@
 
 ## Используемые технологии и инструменты
 
-* [python](tech/python.md)
 * [golang](tech/golang.md)
+* [python](tech/python.md)
 * postgres
 * redis
 * kafka
