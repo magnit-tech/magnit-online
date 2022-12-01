@@ -8,17 +8,17 @@
 
 ### Приложения
 
-#### Google
+#### <img src="https://cdn.svgporn.com/logos/google-play-icon.svg" alt="python" width="25" height="15" /> Google
 
 * [Магнит: акции и скидки](https://play.google.com/store/apps/details?id=ru.tander.magnit&hl=ru&gl=US)
 * [Магнит: доставка продуктов](https://play.google.com/store/apps/details?id=ru.magnit.express.android&hl=ru&gl=US)
 
-#### Apple
+#### <img src="https://cdn.svgporn.com/logos/apple-app-store.svg" alt="apple" width="25" height="18" /> Apple
 
 * [Магнит: акции и скидки](https://apps.apple.com/ru/app/магнит-акции-и-скидки/id881463973)
 * [Магнит — доставка товаров](https://apps.apple.com/ru/app/%D0%BC%D0%B0%D0%B3%D0%BD%D0%B8%D1%82-%D0%B4%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%B0-%D1%82%D0%BE%D0%B2%D0%B0%D1%80%D0%BE%D0%B2/id1536769731)
 
-### Сайты
+### <img src="https://cdn.svgporn.com/logos/chrome.svg" alt="apple" width="25" height="18" /> Сайты
 
 * [apteka.magnit.ru](https://apteka.magnit.ru/)
 * [dostavka.magnit.ru](https://dostavka.magnit.ru/)
