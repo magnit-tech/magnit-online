@@ -39,6 +39,8 @@ RPS к бэкенду | 2000+
 DAU | 2+ млн человек
 MAU | 10+ млн человек
 
+В Магнит Онлайн работают [руководители](contacts.md) с опытом в компаниях: yandex, mailru, delivery club, lamoda, tinkoff, ostrovok, vprok.tech, x5.tech, ...
+
 ## Что читать дальше?
 
 * [История](history.md)
