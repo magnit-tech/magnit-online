@@ -2,7 +2,7 @@
 # Контакты руководителей
 
 * [CIO Magnit.Tech](https://www.linkedin.com/in/ymisnik/)
-* [CTO Magnit Online](https://github.com/psyduckinattack)
+* [CTO Magnit Online](https://www.linkedin.com/in/antsa4/)
 * [Head of Core Product](https://github.com/drfisher)
 * [Head of Ecom Product](https://github.com/mipxtx)
 * [Head of Online Platform](https://github.com/arxell)
