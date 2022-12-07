@@ -20,8 +20,8 @@
 ## Используемые технологии и инструменты
 
 * [golang](../tech/golang.md)
-* postgres
-* redis
 * elasticseach
+* redis
+* postgres
 * rabbitmq
 * kafka
