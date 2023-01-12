@@ -4,6 +4,7 @@
 
 * Android
 * iOS
+* devops
 * QA
 * Backend
 
