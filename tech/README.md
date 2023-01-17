@@ -1,6 +1,6 @@
 # Технологии и инструменты
 
-<p align="left">
+<p>
 <img src="https://cdn.svgporn.com/logos/confluence.svg" alt="confluence" width="25" height="25" />
 <img src="https://cdn.svgporn.com/logos/gitlab.svg" alt="gitlab" width="25" height="25" />
 <img src="https://cdn.svgporn.com/logos/go.svg" alt="go" width="25" height="25" />
