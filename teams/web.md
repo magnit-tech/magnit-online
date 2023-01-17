@@ -15,5 +15,5 @@
 
 ## Используемые технологии и инструменты
 
-* [frontend](tech/js.md)
-* [backend](tech/golang.md)
+* [frontend](/tech/js.md)
+* [backend](/tech/golang.md)

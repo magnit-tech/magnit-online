@@ -8,7 +8,7 @@
 - **postcss**
 - **pinia**
 - **jest**
-- **storybook** для визуализации библиотеки UI-компонентов
+- **storybook** для визуализации [библиотеки UI-компонентов](https://web-design-system.dev.ya.magnit.ru/).
 
 ## GIT, Gitlab, CI/CD
 
