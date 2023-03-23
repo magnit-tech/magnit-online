@@ -44,7 +44,8 @@ MAU | 10+ млн человек
 ## Что читать дальше?
 
 * [История](history.md)
-* [Культура](culture.md)
+* [Корпоративная культура](corporate_culture.md)
+* [Инженерная культура](engineering_culture.md)
 * [Как мы работаем](about.md)
 * [Технологии и инструменты](tech/README.md)
 * [Команды](teams/README.md)
