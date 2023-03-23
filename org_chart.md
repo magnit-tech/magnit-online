@@ -35,7 +35,7 @@
 
 #### q1
 
-![your-UML-diagram-name](<img class="fit-picture" src="http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/magnit-tech/magnit-online-services-docs/master/plantuml/org_chart_2022_q1.iuml">)
+![your-UML-diagram-name](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/magnit-tech/magnit-online-services-docs/master/plantuml/org_chart_2022_q1.iuml)
 
 #### q2
 
