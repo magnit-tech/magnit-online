@@ -56,7 +56,7 @@
 
 * [AB](ab.md)
 * [MagnitID](magnit_id.md)
-* [Middleware](middleware.md)
+* [Cuscom](cuscom.md)
 * [Search](search.md)
 * [Stocks&Prices](stocks_and_prices.md)
 * [UGC](ugc.md)
