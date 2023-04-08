@@ -1,0 +1,46 @@
+@startuml
+
+@startwbs
+*[#orange] Department: Online
+
+**[#silver] Division: Ecom.Clients
+*** Partners Team
+*** Choice Team
+*** Marketing Team
+*** OMS/CRM Team
+*** Purchase Team
+
+**[#silver] Division: Ecom.Operations
+*** Payment Team
+*** Assembly Team
+*** Delovery Team
+*** OMS Team
+
+**[#silver] Division: DevOps
+*** Ecom Team
+*** Core Team
+*** Platform Team
+
+**[#silver] Division: Platform
+*** Cuscom Team
+*** MagnitID Team
+*** Search Team
+*** UGC Team
+*** StocksAndPrices Team
+*** AB Team
+
+**[#silver] Direction: Core
+*** Checkout Team
+*** Release Team
+*** App Base Team
+*** Web Base Team
+***[#tan] Division: Client Needs
+**** Acquisition Team
+**** Virtual Card Team
+**** Extra Value Team
+**** Product Catalog & Promo Team
+**** Online Journal Team
+**** User Reviews Team
+
+@endwbs
+@enduml
