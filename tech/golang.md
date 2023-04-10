@@ -1,4 +1,7 @@
-# Golang service requirements
+# Golang
+
+[Технологический радар](https://radar.thoughtworks.com/?sheetId=https://raw.githubusercontent.com/magnit-tech/magnit-online/master/Tech_Radar_Magnit_Online_golang.csv)
+
 
 ## Version
 
