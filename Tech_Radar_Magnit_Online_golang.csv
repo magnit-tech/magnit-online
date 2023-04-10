@@ -1,0 +1,6 @@
+name,ring,quadrant,isNew,description
+echo,Adopt,frameworks,FALSE,
+gpxgo,Adopt,libraries,FALSE,
+go-redis,Adopt,libraries,FALSE,
+swag,Adopt,tools,FALSE,
+grpc-go,Adopt,protocols,FALSE,
