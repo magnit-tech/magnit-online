@@ -61,3 +61,4 @@ MAU | 10+ млн человек
 * [Корпоративный сайт](https://www.magnit.tech/)
 * [Вакансии](https://www.magnit.tech/vacancies/)
 * [Контакты](contacts.md)
+* [Технологический Радар: Python](http://htmlpreview.github.io/?https://github.com/magnit-tech/magnit-online/blob/python-tech-radar/tech/radar/python/index.html)
