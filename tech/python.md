@@ -1,6 +1,6 @@
 # Реализация микросервисов на python
 
-[Технологический радар](https://radar.thoughtworks.com/?sheetId=https://raw.githubusercontent.com/magnit-tech/magnit-online/master/Tech_Radar_Magnit_Online_python.csv)
+[Технологический радар](https://magnit-tech.github.io/magnit-online/tech/radar/python/index.html)
 
 Пишем микросервисы среднего слоя на python.
 

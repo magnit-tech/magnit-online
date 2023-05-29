@@ -1,0 +1,104 @@
+<html>
+   <head>
+      <script src="https://d3js.org/d3.v4.min.js"></script>
+      <script src="https://zalando.github.io/tech-radar/release/radar-0.7.js"></script>
+      <style>
+         html {font-family: sans-serif;}
+         li {padding-bottom: 1em; max-width: 500px;}
+         td {padding-right: 5em; vertical-align: top;}
+      </style>
+   </head>
+   <body>
+      <svg id="radar"></svg>
+      <script>
+         radar_visualization({
+           svg_id: "radar",
+           width: 1450,
+           height: 1000,
+           colors: {
+             background: "#fff",
+             grid: "#bbb",
+             inactive: "#ddd"
+           },
+           title: "Magnit Online Python Tech Radar",
+           quadrants: [
+             { name: "Languages & Frameworks" },
+             { name: "Platforms & Infrastructure" },
+             { name: "Data Management" },
+             { name: "Techniques & Tools" }
+           ],
+           rings: [
+             { name: "ADOPT",  color: "#5ba300" },
+             { name: "TRIAL", color: "#009eb0" },
+             { name: "ASSESS",  color: "#c7ba00" },
+             { name: "HOLD",  color: "#e09b96" }
+           ],
+           print_layout: true,
+           links_in_new_tabs: true,
+           entries: [
+           	// Languages & Frameworks
+             {quadrant: 0, ring: 0, moved: 0, label: "Python 3.11", link: "https://www.python.org/"},
+             {quadrant: 0, ring: 3, moved: 0, label: "Django", link: "https://www.djangoproject.com/"},
+             {quadrant: 0, ring: 0, moved: 0, label: "FastAPI", link: "https://fastapi.tiangolo.com/"},
+         
+           	// Platforms & Infrastructure
+           	{quadrant: 1, ring: 0, moved: 0, label: "Docker", link: "https://www.docker.com/"},
+           	{quadrant: 1, ring: 0, moved: 0, label: "k8s", link: "https://kubernetes.io/ru/"},
+           	{quadrant: 1, ring: 0, moved: 0, label: "Gitlab", link: "https://gitlab.com"},
+           	{quadrant: 1, ring: 0, moved: 0, label: "Grafana", link: "https://grafana.com/"},
+           	{quadrant: 1, ring: 0, moved: 0, label: "Sentry", link: "https://sentry.io"},
+           	{quadrant: 1, ring: 0, moved: 0, label: "Yandex Cloud", link: "https://cloud.yandex.ru/"},
+         
+           	// Data Management
+           	{quadrant: 2, ring: 0, moved: 0, label: "PostgreSQL", link: "https://www.postgresql.org/"},
+           	{quadrant: 2, ring: 0, moved: 0, label: "Redis", link: "https://redis.io/"},
+           	{quadrant: 2, ring: 0, moved: 0, label: "ElasticSearch", link: "https://www.elastic.co/"},
+           	{quadrant: 2, ring: 0, moved: 0, label: "RabbitMQ", link: "https://www.rabbitmq.com/"},
+           	{quadrant: 2, ring: 0, moved: 0, label: "Kafka", link: "https://kafka.apache.org/"},
+           	{quadrant: 2, ring: 0, moved: 0, label: "S3", link: "https://cloud.yandex.ru/docs/glossary/s3"},
+            {quadrant: 2, ring: 0, moved: 0, label: "Protobuf", linl: "https://protobuf.dev/"},
+         
+           	// Techniques & Tools
+         	{quadrant: 3, ring: 0, moved: 0, label: "redis", link: "https://github.com/redis/redis-py"},
+            {quadrant: 3, ring: 3, moved: 0, label: "aioredis", link: "https://github.com/aio-libs/aioredis-py"},
+            {quadrant: 3, ring: 3, moved: 0, label: "aioredlok", link: "https://github.com/joanvila/aioredlock"},
+         	{quadrant: 3, ring: 0, moved: 0, label: "SQLAlchemy 2", link: "https://www.sqlalchemy.org/"},
+         	{quadrant: 3, ring: 0, moved: 0, label: "uvicorn", link: "https://www.uvicorn.org/"},
+         	{quadrant: 3, ring: 0, moved: 0, label: "poetry", link: "https://python-poetry.org/"},
+         	{quadrant: 3, ring: 0, moved: 0, label: "alembic", link: "https://github.com/sqlalchemy/alembic"},
+         	{quadrant: 3, ring: 0, moved: 0, label: "httpx", link: "https://github.com/encode/httpx/"},
+         	{quadrant: 3, ring: 0, moved: 0, label: "pydantic", link: "https://github.com/pydantic/pydantic"},
+         	{quadrant: 3, ring: 0, moved: 0, label: "k8s: CronJob", link: "https://kubernetes.io/docs/concepts/workloads/controllers/cron-jobs/"},
+         	{quadrant: 3, ring: 0, moved: 0, label: "Opentelemetry", link: "https://opentelemetry.io/"},
+         	{quadrant: 3, ring: 0, moved: 0, label: "OpenAPI Codegen"},
+         	{quadrant: 3, ring: 0, moved: 0, label: "gRPC", link: "https://grpc.io/"},
+         	{quadrant: 3, ring: 0, moved: 0, label: "Type Hinting", link: "https://docs.python.org/3/library/typing.html"},
+         	{quadrant: 3, ring: 0, moved: 0, label: "Code Style: Black", link: "https://github.com/psf/black"},
+            {quadrant: 3, ring: 0, moved: 0, label: "Code Style: isort", link: "https://github.com/PyCQA/isort"},
+            {quadrant: 3, ring: 0, moved: 0, label: "Code Style: mypy", link: "https://github.com/python/mypy"},
+         	{quadrant: 3, ring: 1, moved: 0, label: "CQRS", link: "https://ru.wikipedia.org/wiki/CQRS#%D0%9D%D0%B5%D0%B4%D0%BE%D1%81%D1%82%D0%B0%D1%82%D0%BA%D0%B8"},
+         	{quadrant: 3, ring: 1, moved: 0, label: "DI", link: "https://ru.wikipedia.org/wiki/%D0%92%D0%BD%D0%B5%D0%B4%D1%80%D0%B5%D0%BD%D0%B8%D0%B5_%D0%B7%D0%B0%D0%B2%D0%B8%D1%81%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D0%B8"},
+            {quadrant: 3, ring: 3, moved: 0, label: "BDD", link: "https://ru.wikipedia.org/wiki/BDD_(%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5)"},
+            {quadrant: 3, ring: 0, moved: 0, label: "pytest", link: "https://github.com/pytest-dev/pytest"},
+           ]
+         });
+      </script>
+      <table>
+         <tbody>
+            <tr>
+               <td>
+                  <ul>
+                     <li><strong>ADOPT</strong> — технологии и инструменты, которые внедрены и активно используются командах. Технологии, по которым в Magnit Online есть экспертиза.</li>
+                     <li><strong>TRIAL</strong> — технологии и инструменты, которые уже прошли этап тестирования и готовятся к тому, чтобы работать в продакшн (или даже уже работают там).</li>
+                     <li><strong>ASSESS</strong> — пробные технологии и инструменты, которые в данный момент оцениваются. С их участием реализуются только тестовые проекты, и они не используются в реальных задачах.</li>
+                     <li><strong>HOLD</strong> — в этой категории у нас есть экспертиза, но упомянутые инструменты используются только при поддержке существующих систем — новые проекты на них не запускаются.</li>
+                  </ul>
+               </td>
+               <td>
+                  Generated by <a href="https://github.com/zalando/tech-radar">Zalando Tech Radar</a>.
+               </td>
+            </tr>
+         </tbody>
+      </table>
+   </body>
+</html>
