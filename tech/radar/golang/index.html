@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Magnit Online Golang Tech Radar</title>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="http://zalando.github.io/tech-radar/release/radar-0.7.js"></script>
+</head>
+<body>
+<svg id="radar"></svg>
+<script>
+    radar_visualization({
+        svg_id: "radar",
+        width: 1450,
+        height: 1000,
+        colors: {
+            background: "#fff",
+            grid: "#bbb",
+            inactive: "#ddd"
+        },
+        title: "Magnit Online Golang Tech Radar",
+        quadrants: [
+            { name: "Languages & Frameworks" },
+            { name: "Platforms & Infrastructure" },
+            { name: "Data Management" },
+            { name: "Techniques & Tools" }
+        ],
+        rings: [
+            { name: "ADOPT",  color: "#5ba300" },
+            { name: "TRIAL", color: "#009eb0" },
+            { name: "ASSESS",  color: "#c7ba00" },
+            { name: "HOLD",  color: "#e09b96" }
+        ],
+        print_layout: true,
+        links_in_new_tabs: true,
+        entries: [
+            // Languages & Frameworks
+            {quadrant: 0, ring: 0, moved: 0, label: "Echo", link: "https://echo.labstack.com"},
+            {quadrant: 0, ring: 2, moved: 0, label: "Allure", link: "https://docs.qameta.io/allure"},
+            {quadrant: 0, ring: 1, moved: 0, label: "Dockertest", link: "https://github.com/ory/dockertest"},
+            {quadrant: 0, ring: 3, moved: 0, label: "oapi-codegen", link: "https://github.com/deepmap/oapi-codegen"},
+            {quadrant: 0, ring: 0, moved: 0, label: "golang-migrate", link: "https://github.com/golang-migrate/migrate"},
+            {quadrant: 0, ring: 0, moved: 0, label: "kafka-go", link: "https://github.com/segmentio/kafka-go"},
+            {quadrant: 0, ring: 3, moved: 0, label: "GORM", link: "https://gorm.io"},
+
+            // Platforms & Infrastructure
+            {quadrant: 1, ring: 0, moved: 0, label: "Docker", link: "https://www.docker.com"},
+            {quadrant: 1, ring: 0, moved: 0, label: "Grafana", link: "https://grafana.com"},
+            {quadrant: 1, ring: 0, moved: 0, label: "Grafana: Loki", link: "https://grafana.com/oss/loki"},
+            {quadrant: 1, ring: 0, moved: 0, label: "Grafana: Tempo", link: "https://grafana.com/oss/tempo"},
+            {quadrant: 1, ring: 0, moved: 0, label: "Victoria Metrics", link: "https://victoriametrics.com"},
+            {quadrant: 1, ring: 0, moved: 0, label: "Yandex Cloud", link: "https://cloud.yandex.ru"},
+            {quadrant: 1, ring: 0, moved: 0, label: "Yandex Odyssey", link: "https://github.com/yandex/odyssey"},
+            {quadrant: 1, ring: 0, moved: 0, label: "Kubernetes", link: "https://kubernetes.io/ru"},
+            {quadrant: 1, ring: 1, moved: 1, label: "Helm", link: "https://helm.sh"},
+            {quadrant: 1, ring: 0, moved: 0, label: "Gitlab CI", link: "https://gitlab.com"},
+            {quadrant: 1, ring: 0, moved: 0, label: "Athens Proxy", link: "https://docs.gomods.io"},
+            {quadrant: 1, ring: 1, moved: 1, label: "Istio", link: "https://istio.io"},
+            {quadrant: 1, ring: 1, moved: 1, label: "Envoy Proxy", link: "https://www.envoyproxy.io"},
+            {quadrant: 1, ring: 0, moved: 0, label: "OpenTelemetry", link: "https://opentelemetry.io"},
+            {quadrant: 1, ring: 2, moved: 0, label: "Pyroscope Profiling", link: "https://pyroscope.io"},
+
+            // Data Management
+            {quadrant: 2, ring: 0, moved: 0, label: "PostgreSQL", link: "https://www.postgresql.org"},
+            {quadrant: 2, ring: 0, moved: 0, label: "Redis", link: "https://redis.io"},
+            {quadrant: 2, ring: 0, moved: 0, label: "Kafka", link: "https://kafka.apache.org"},
+            {quadrant: 2, ring: 0, moved: 0, label: "RabbitMQ", link: "https://www.rabbitmq.com"},
+            {quadrant: 2, ring: 0, moved: 0, label: "Minio (S3)", link: "https://cloud.yandex.ru/docs/glossary/s3"},
+            {quadrant: 2, ring: 3, moved: -1, label: "Tarantool", link: "https://cloud.yandex.ru/docs/glossary/s3"},
+            {quadrant: 2, ring: 0, moved: -1, label: "ElasticSearch", link: "https://cloud.yandex.ru/docs/glossary/s3"},
+            {quadrant: 2, ring: 2, moved: -1, label: "ClickHouse", link: "https://cloud.yandex.ru/docs/glossary/s3"},
+
+            // Techniques & Tools
+            {quadrant: 3, ring: 0, moved: 0, label: "gRPC", link: "https://grpc.io/"},
+            {quadrant: 3, ring: 0, moved: 0, label: "OpenAPI 3.0", link: "https://swagger.io/specification"},
+            {quadrant: 3, ring: 1, moved: 0, label: "Magnit CLI", link: "https://grpc.io"},
+            {quadrant: 3, ring: 0, moved: 0, label: "golangci-lint", link: "http://golangci-lint.run"},
+        ]
+    });
+</script>
+</body>
+</html>
