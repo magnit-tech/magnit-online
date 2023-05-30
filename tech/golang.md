@@ -1,6 +1,7 @@
 # Golang
 
-[Технологический радар](https://radar.thoughtworks.com/?sheetId=https://raw.githubusercontent.com/magnit-tech/magnit-online/master/Tech_Radar_Magnit_Online_golang.csv)
+[Технологический радар](https://magnit-tech.github.io/magnit-online/tech/radar/golang/index.html)
+
 
 
 ## Version
