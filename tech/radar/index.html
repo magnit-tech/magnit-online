@@ -1,0 +1,96 @@
+<html>
+   <head>
+      <script src="https://d3js.org/d3.v4.min.js"></script>
+      <script src="https://zalando.github.io/tech-radar/release/radar-0.7.js"></script>
+      <style>
+         html {font-family: sans-serif;}
+         li {padding-bottom: 1em; max-width: 500px;}
+         td {padding-right: 5em; vertical-align: top;}
+      </style>
+   </head>
+   <body>
+      <svg id="radar"></svg>
+      <script>
+         radar_visualization({
+           svg_id: "radar",
+           width: 1450,
+           height: 1000,
+           colors: {
+             background: "#fff",
+             grid: "#bbb",
+             inactive: "#ddd"
+           },
+           title: "Magnit Online Golang Tech Radar",
+           quadrants: [
+             { name: "Languages & Frameworks" },
+             { name: "Platforms & Infrastructure" },
+             { name: "Data Management" },
+             { name: "Techniques & Tools" }
+           ],
+           rings: [
+             { name: "ADOPT",  color: "#5ba300" },
+             { name: "TRIAL", color: "#009eb0" },
+             { name: "ASSESS",  color: "#c7ba00" },
+             { name: "HOLD",  color: "#e09b96" }
+           ],
+           print_layout: true,
+           links_in_new_tabs: true,
+           entries: [
+            // Languages & Frameworks
+            {quadrant: 0, ring: 0, moved: 0, label: "Golang", link: "https://go.dev/"},
+            {quadrant: 0, ring: 0, moved: 0, label: "JavaScript", link: "https://en.wikipedia.org/wiki/JavaScript"},
+            {quadrant: 0, ring: 0, moved: 0, label: "Kotlin", link: "https://kotlinlang.org/"},
+            {quadrant: 0, ring: 0, moved: 0, label: "php", link: "https://www.php.net/"},
+            {quadrant: 0, ring: 0, moved: 0, label: "python", link: "https://www.python.org/"},
+            {quadrant: 0, ring: 0, moved: 0, label: "swift", link: "https://www.swift.com/"},
+            {quadrant: 0, ring: 0, moved: 0, label: "typescriptlang", link: "https://www.typescriptlang.org/"},
+
+            // Platforms & Infrastructure
+            {quadrant: 1, ring: 0, moved: 0, label: "Docker", link: "https://www.docker.com"},
+            {quadrant: 1, ring: 0, moved: 0, label: "Grafana", link: "https://grafana.com"},
+            {quadrant: 1, ring: 0, moved: 0, label: "Victoria Metrics", link: "https://victoriametrics.com"},
+            {quadrant: 1, ring: 0, moved: 0, label: "Yandex Cloud", link: "https://cloud.yandex.ru"},
+            {quadrant: 1, ring: 0, moved: 0, label: "Kubernetes", link: "https://kubernetes.io/ru"},
+            {quadrant: 1, ring: 1, moved: 1, label: "Helm", link: "https://helm.sh"},
+            {quadrant: 1, ring: 0, moved: 0, label: "Gitlab CI", link: "https://gitlab.com"},
+            {quadrant: 1, ring: 1, moved: 1, label: "Istio", link: "https://istio.io"},
+            {quadrant: 1, ring: 0, moved: 0, label: "OpenTelemetry", link: "https://opentelemetry.io"},
+            {quadrant: 1, ring: 0, moved: 0, label: "Hashicorp Vault", link: "https://www.vaultproject.io/"},
+
+            // Data Management
+            {quadrant: 2, ring: 0, moved: 0, label: "PostgreSQL", link: "https://www.postgresql.org"},
+            {quadrant: 2, ring: 0, moved: 0, label: "Redis", link: "https://redis.io"},
+            {quadrant: 2, ring: 0, moved: 0, label: "Kafka", link: "https://kafka.apache.org"},
+            {quadrant: 2, ring: 0, moved: 0, label: "RabbitMQ", link: "https://www.rabbitmq.com"},
+            {quadrant: 2, ring: 0, moved: 0, label: "Minio (S3)", link: "https://cloud.yandex.ru/docs/glossary/s3"},
+            {quadrant: 2, ring: 3, moved: -1, label: "Tarantool", link: "https://www.tarantool.io/en/"},
+            {quadrant: 2, ring: 0, moved: -1, label: "ElasticSearch", link: "https://www.elastic.co"},
+            {quadrant: 2, ring: 2, moved: -1, label: "ClickHouse", link: "https://yandex.ru/dev/clickhouse/"},
+            {quadrant: 2, ring: 3, moved: -1, label: "Memcached", link: "https://memcached.org/"},
+            {quadrant: 2, ring: 3, moved: -1, label: "MySQL", link: "https://www.mysql.com/"},
+
+            // Techniques & Tools
+            {quadrant: 3, ring: 0, moved: 0, label: "gRPC", link: "https://grpc.io/"},
+            {quadrant: 3, ring: 0, moved: 0, label: "OpenAPI 3.0", link: "https://swagger.io/specification"},
+           ]
+         });
+      </script>
+      <table>
+         <tbody>
+            <tr>
+               <td>
+                  <ul>
+                     <li><strong>ADOPT</strong> — технологии и инструменты, которые внедрены и активно используются командах. Технологии, по которым в Magnit Online есть экспертиза.</li>
+                     <li><strong>TRIAL</strong> — технологии и инструменты, которые уже прошли этап тестирования и готовятся к тому, чтобы работать в продакшн (или даже уже работают там).</li>
+                     <li><strong>ASSESS</strong> — пробные технологии и инструменты, которые в данный момент оцениваются. С их участием реализуются только тестовые проекты, и они не используются в реальных задачах.</li>
+                     <li><strong>HOLD</strong> — в этой категории у нас есть экспертиза, но упомянутые инструменты используются только при поддержке существующих систем — новые проекты на них не запускаются.</li>
+                  </ul>
+               </td>
+               <td>
+                  Generated by <a href="https://github.com/zalando/tech-radar">Zalando Tech Radar</a>.
+               </td>
+            </tr>
+         </tbody>
+      </table>
+   </body>
+</html>
