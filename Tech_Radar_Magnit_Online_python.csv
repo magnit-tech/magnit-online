@@ -1,9 +1,0 @@
-name,ring,quadrant,isNew,description
-fastapi,Adopt,frameworks,FALSE,
-django,Hold,frameworks,FALSE,
-sqlalchemy,Adopt,libraries,FALSE,
-aiokafka,Adopt,libraries,FALSE,
-aioredis,Adopt,libraries,FALSE,
-grpcio,Assess,tools,FALSE,
-grpc,Trial,protocol,FALSE,
-http,Adopt,protocol,FALSE,
