@@ -51,6 +51,17 @@
 
 </details>
 
+### 2023
+
+<details>
+<summary>Развернуть/свернуть</summary>
+
+#### q1
+
+![your-UML-diagram-name](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/magnit-tech/magnit-online-services-docs/master/plantuml/org_chart_2023_q1.iuml)
+
+</details>
+
 ## Виды команд и почему они у нас такие
 
 Источники

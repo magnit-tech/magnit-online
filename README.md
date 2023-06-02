@@ -8,12 +8,23 @@
 
 ### Приложения
 
-#### <img src="https://cdn.svgporn.com/logos/google-play-icon.svg" alt="python" width="25" height="15" /> Google
+#### <img src="https://cdn.svgporn.com/logos/android-vertical.svg" alt="android" height="18" /> Android
 
-* [Магнит: акции и скидки](https://play.google.com/store/apps/details?id=ru.tander.magnit&hl=ru&gl=US)
-* [Магнит: доставка продуктов](https://play.google.com/store/apps/details?id=ru.magnit.express.android&hl=ru&gl=US)
+* Google Play
+  * [Магнит: акции и скидки](https://play.google.com/store/apps/details?id=ru.tander.magnit&hl=ru&gl=US)
+  * [Магнит: доставка продуктов](https://play.google.com/store/apps/details?id=ru.magnit.express.android&hl=ru&gl=US)
+* RuStore
+  * [Магнит: акции и скидки](https://apps.rustore.ru/app/ru.tander.magnit)
+  * [Магнит: доставка продуктов](https://apps.rustore.ru/app/ru.magnit.express.android)
+* AppGallery (Huawei)
+  * [Магнит: акции и скидки](https://appgallery.huawei.com/app/C101305395)
+  * [Магнит: доставка продуктов](https://appgallery.huawei.com/app/C104053525)
+* Xiaomi GetApps
+  * [Магнит: акции и скидки](https://global.app.mi.com/details?lo=RU&la=ru&id=ru.tander.magnit)
+  * [Магнит: доставка продуктов](https://global.app.mi.com/details?lo=RU&la=ru&id=ru.magnit.express.android)
 
-#### <img src="https://cdn.svgporn.com/logos/apple-app-store.svg" alt="apple" width="25" height="18" /> Apple
+
+#### <img src="https://cdn.svgporn.com/logos/apple-app-store.svg" alt="ios" width="25" height="18" /> iOS
 
 * [Магнит: акции и скидки](https://apps.apple.com/ru/app/магнит-акции-и-скидки/id881463973)
 * [Магнит — доставка товаров](https://apps.apple.com/ru/app/%D0%BC%D0%B0%D0%B3%D0%BD%D0%B8%D1%82-%D0%B4%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%B0-%D1%82%D0%BE%D0%B2%D0%B0%D1%80%D0%BE%D0%B2/id1536769731)
@@ -44,7 +55,8 @@ MAU | 10+ млн человек
 ## Что читать дальше?
 
 * [История](history.md)
-* [Культура](culture.md)
+* [Корпоративная культура](corporate_culture.md)
+* [Инженерная культура](engineering_culture.md)
 * [Как мы работаем](about.md)
 * [Технологии и инструменты](tech/README.md)
 * [Команды](teams/README.md)
@@ -55,7 +67,7 @@ MAU | 10+ млн человек
 
 ## Полезные ссылки
 
-* [Технологический Радар](https://radar.thoughtworks.com/?sheetId=https://raw.githubusercontent.com/magnit-tech/magnit-online-services-docs/master/Tech_Radar_Magnit_Online.csv)
+* [Технологический радар](https://magnit-tech.github.io/magnit-online/tech/radar/index.html)
 * [Habr](https://habr.com/ru/company/magnit/blog/)
 * [Корпоративный сайт](https://www.magnit.tech/)
 * [Вакансии](https://www.magnit.tech/vacancies/)
