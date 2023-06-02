@@ -42,6 +42,6 @@
 * [kotlin](kotlin.md)
 * [swift](swift.md)
 
-### Web
+### Frontend
 
-* [js](js.md)
+* [web](web.md)
