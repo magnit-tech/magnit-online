@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="https://zalando.github.io/tech-radar/release/radar-0.7.js"></script>
+    <style>
+        html {font-family: sans-serif;}
+        li {padding-bottom: 1em; max-width: 500px;}
+        td {padding-right: 5em; vertical-align: top;}
+    </style>
+</head>
+
+<body>
+
+    <svg id="radar"></svg>
+
+<script>
+radar_visualization({
+  svg_id: "radar",
+  width: 1450,
+  height: 1000,
+  colors: {
+    background: "#fff",
+    grid: '#dddde0',
+    inactive: "#ddd"
+  },
+  title: "Magnit Online PHP Tech Radar",
+  date: "2023.06",
+  quadrants: [
+    { name: "Languages & Frameworks" },
+    { name: "Infrastructure" },
+    { name: "Datastores" },
+    { name: "Data Management" },
+  ],
+  rings: [
+    { name: "ADOPT", color: "#5ba300" },
+    { name: "TRIAL", color: "#009eb0" },
+    { name: "ASSESS", color: "#c7ba00" },
+    { name: "HOLD", color: "#e09b96" }
+  ],
+  print_layout: true,
+  links_in_new_tabs: true,
+  // zoomed_quadrant: 0,
+  //ENTRIES
+  entries: [
+      {
+        "quadrant": 2,
+        "ring": 0,
+        "label": "MySQL",
+        "active": true,
+        "moved": 0
+      },
+      {
+        "quadrant": 2,
+        "ring": 0,
+        "label": "PostgreSQL",
+        "active": true,
+        "moved": 0
+      },
+      {
+        "quadrant": 2,
+        "ring": 0,
+        "label": "Redis",
+        "active": true,
+        "moved": 0
+      },
+      {
+          "quadrant": 2,
+          "ring": 0,
+          "label": "Elasticsearch",
+          "comment": "Catalog (Вопрос к Васе)",
+          "active": true,
+          "moved": 0
+      },
+      {
+          "quadrant": 2,
+          "ring": 3,
+          "label": "Tarantool",
+          "active": true,
+          "moved": 0
+      },
+      {
+        "quadrant": 0,
+        "ring": 3,
+        "label": "Bitrix",
+        "active": true,
+        "moved": 0
+      },
+      {
+        "quadrant": 0,
+        "ring": 3,
+        "label": "PHP 7.3",
+        "active": true,
+        "moved": 0
+      },
+      {
+          "quadrant": 0,
+          "ring": 0,
+          "label": "PHP 8.1",
+          "active": true,
+          "moved": 0
+      },
+      {
+        "quadrant": 0,
+        "ring": 0,
+        "label": "Symfony Framework",
+        "active": true,
+        "moved": 0
+      },
+      {
+          "quadrant": 0,
+          "ring": 0,
+          "label": "Doctrine ORM",
+          "active": true,
+          "moved": 0
+      },
+      {
+          "quadrant": 0,
+          "ring": 0,
+          "label": "Mockery",
+          "active": true,
+          "moved": 0
+      },
+      {
+          "quadrant": 0,
+          "ring": 0,
+          "label": "PHPUnit",
+          "active": true,
+          "moved": 0
+      },
+      {
+          "quadrant": 0,
+          "ring": 0,
+          "label": "PHPStan",
+          "active": true,
+          "moved": 0
+      },
+      {
+          "quadrant": 0,
+          "ring": 0,
+          "label": "Protobuf",
+          "active": true,
+          "moved": 0
+      },
+      {
+          "quadrant": 1,
+          "ring": 0,
+          "label": "Docker",
+          "active": true,
+          "moved": 0
+      },
+      {
+          "quadrant": 1,
+          "ring": 0,
+          "label": "NGINX",
+          "active": true,
+          "moved": 0
+      },
+      {
+          "quadrant": 1,
+          "ring": 0,
+          "label": "Kubernetes",
+          "active": true,
+          "moved": 0
+      },
+      {
+          "quadrant": 1,
+          "ring": 1,
+          "label": "Istio",
+          "active": true,
+          "moved": 0
+      },
+      {
+          "quadrant": 1,
+          "ring": 1,
+          "label": "Helm",
+          "active": true,
+          "moved": 0
+      },
+      {
+          "quadrant": 1,
+          "ring": 0,
+          "label": "GitLab",
+          "active": true,
+          "moved": 0
+      },
+      {
+          "quadrant": 1,
+          "ring": 0,
+          "label": "Grafana",
+          "active": true,
+          "moved": 0
+      },
+      {
+          "quadrant": 1,
+          "ring": 0,
+          "label": "Grafana: Loki",
+          "active": true,
+          "moved": 0
+      },
+      {
+          "quadrant": 1,
+          "ring": 2,
+          "label": "Grafana: Tempo",
+          "active": true,
+          "moved": 0
+      },
+      {
+          "quadrant": 1,
+          "ring": 0,
+          "label": "Prometheus",
+          "active": true,
+          "moved": 0
+      },
+      {
+          "quadrant": 1,
+          "ring": 0,
+          "label": "Victoria Metrics",
+          "active": true,
+          "moved": 0
+      },
+      {
+          "quadrant": 1,
+          "ring": 0,
+          "label": "Sentry",
+          "active": true,
+          "moved": 0
+      },
+      {
+        "quadrant": 2,
+        "ring": 0,
+        "label": "Memcached",
+        "active": true,
+        "moved": 0
+      },
+      {
+        "quadrant": 0,
+        "ring": 0,
+        "label": "OpenAPI (Swagger)",
+        "active": true,
+        "moved": 0
+      },
+      {
+          "quadrant": 0,
+          "ring": 1,
+          "label": "Roadrunner",
+          "active": true,
+          "moved": 0
+      },
+      {
+          "quadrant": 0,
+          "ring": 0,
+          "label": "Codeception",
+          "active": true,
+          "moved": 0
+      },
+      {
+          "quadrant": 0,
+          "ring": 0,
+          "label": "CSFixer",
+          "active": true,
+          "moved": 0
+      },
+      {
+        "quadrant": 3,
+        "ring": 0,
+        "label": "Kafka",
+        "active": true,
+        "moved": 0
+      },
+      {
+        "quadrant": 3,
+        "ring": 0,
+        "label": "RabbitMQ",
+        "active": true,
+        "moved": 0
+      }
+    ]
+  //ENTRIES
+});
+</script>
+
+<table>
+    <tr>
+        <td>
+            <ul>
+                <li><strong>ADOPT</strong> &mdash; технологии и инструменты, которые внедрены и активно используются командах. Технологии, по которым в Magnit Online есть экспертиза.</li>
+                <li><strong>TRIAL</strong> &mdash; технологии и инструменты, которые уже прошли этап тестирования и готовятся к тому, чтобы работать в продакшн (или даже уже работают там).</li>
+                <li><strong>ASSESS</strong> &mdash; пробные технологии и инструменты, которые в данный момент оцениваются. С их участием реализуются только тестовые проекты, и они не используются в реальных задачах.</li>
+                <li><strong>HOLD</strong> &mdash; в этой категории у нас есть экспертиза, но упомянутые инструменты используются только при поддержке существующих систем — новые проекты на них не запускаются..</li>
+            </ul>
+        </td>
+        <td>
+            Generated by <a href="https://github.com/zalando/tech-radar">Zalando Tech Radar</a>.
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>

@@ -2,6 +2,8 @@
 
 Указанный набор технологий может меняться под конкретные нужды и задачи.
 
+[Технологический радар](https://magnit-tech.github.io/magnit-online/tech/radar/php/index.html)
+
 ## Технологии
 
 - Php >= 8.0
