@@ -130,3 +130,4 @@
 #### Чем вдохновляться
 
 - [The Zen of Python](https://peps.python.org/pep-0020/)
+- [The Anatomy of an Amazon 6-pager](https://writingcooperative.com/the-anatomy-of-an-amazon-6-pager-fc79f31a41c9)
