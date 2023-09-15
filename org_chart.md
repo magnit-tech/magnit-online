@@ -60,7 +60,12 @@
 
 ![your-UML-diagram-name](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/magnit-tech/magnit-online-services-docs/master/plantuml/org_chart_2023_q1.iuml)
 
+#### q3
+
+![your-UML-diagram-name](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/magnit-tech/magnit-online-services-docs/master/plantuml/org_chart_2023_q3.iuml)
+
 </details>
+
 
 ## Виды команд и почему они у нас такие
 
