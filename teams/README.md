@@ -8,18 +8,19 @@
 
 Кроссфункциональные команды, где есть представители всех направлений: iOS, Android, backend, QA, дизайн, аналитики. Работают по scrum, двухнедельными спринтами, со всеми его стандартными активностями.
 
-### Команды сайтов magnit.ru magnitcosmetic.ru и приложения «Магнит: акции и скидки»
+### Команды приложения «Магнит: акции и доставка» и сайтов компании
 
-* [Acquisition](acquisition.md)
-* [App Base](app.md)
-* [Checkout](checkout.md)
-* [Extra Value](extra_value.md)
+* [App Tech](app_tech.md)
+* [Catalog](catalog.md)
+* [Extra Value Promo Games](extra_value_promo_games.md)
+* [Extra Value Promo Mobile](extra_value_promo_mobile.md)
+* [Main Screen](main_screen.md)
+* [Multiformat](multiformat.md)
 * [Online Journal](online_journal.md)
-* [Product Catalog & Promo](product_promo.md)
+* [Promo](promo.md)
 * [User Reviews](user_reviews.md)
 * [Virtual Card](virtual_card.md)
 * [Web Base](web.md)
-* [Release](release.md)
 
 ### Команды клиентских сервисов доставки
 

@@ -11,22 +11,22 @@
 #### <img src="https://cdn.svgporn.com/logos/android-vertical.svg" alt="android" height="18" /> Android
 
 * Google Play
-  * [Магнит: акции и скидки](https://play.google.com/store/apps/details?id=ru.tander.magnit&hl=ru&gl=US)
+  * [Магнит: акции и доставка](https://play.google.com/store/apps/details?id=ru.tander.magnit&hl=ru&gl=US)
   * [Магнит: доставка продуктов](https://play.google.com/store/apps/details?id=ru.magnit.express.android&hl=ru&gl=US)
 * RuStore
-  * [Магнит: акции и скидки](https://apps.rustore.ru/app/ru.tander.magnit)
+  * [Магнит: акции и доставка](https://apps.rustore.ru/app/ru.tander.magnit)
   * [Магнит: доставка продуктов](https://apps.rustore.ru/app/ru.magnit.express.android)
 * AppGallery (Huawei)
-  * [Магнит: акции и скидки](https://appgallery.huawei.com/app/C101305395)
+  * [Магнит: акции и доставка](https://appgallery.huawei.com/app/C101305395)
   * [Магнит: доставка продуктов](https://appgallery.huawei.com/app/C104053525)
 * Xiaomi GetApps
-  * [Магнит: акции и скидки](https://global.app.mi.com/details?lo=RU&la=ru&id=ru.tander.magnit)
+  * [Магнит: акции и доставка](https://global.app.mi.com/details?lo=RU&la=ru&id=ru.tander.magnit)
   * [Магнит: доставка продуктов](https://global.app.mi.com/details?lo=RU&la=ru&id=ru.magnit.express.android)
 
 
 #### <img src="https://cdn.svgporn.com/logos/apple-app-store.svg" alt="ios" width="25" height="18" /> iOS
 
-* [Магнит: акции и скидки](https://apps.apple.com/ru/app/магнит-акции-и-скидки/id881463973)
+* [Магнит: акции и доставка](https://apps.apple.com/ru/app/магнит-акции-и-скидки/id881463973)
 * [Магнит — доставка товаров](https://apps.apple.com/ru/app/%D0%BC%D0%B0%D0%B3%D0%BD%D0%B8%D1%82-%D0%B4%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%B0-%D1%82%D0%BE%D0%B2%D0%B0%D1%80%D0%BE%D0%B2/id1536769731)
 
 ### <img src="https://cdn.svgporn.com/logos/chrome.svg" alt="apple" width="25" height="18" /> Сайты
@@ -50,7 +50,7 @@ RPS к бэкенду | 2000+
 DAU | 2+ млн человек
 MAU | 10+ млн человек
 
-В Магнит Онлайн работают [руководители](contacts.md) с опытом в компаниях: yandex, mailru, delivery club, lamoda, tinkoff, ostrovok, vprok.tech, x5.tech, ...
+В Магнит Онлайн работают [руководители](contacts.md) с опытом в компаниях: yandex, vk, delivery club, lamoda, tinkoff, ostrovok, vprok.tech, x5.tech, ...
 
 ## Что читать дальше?
 
