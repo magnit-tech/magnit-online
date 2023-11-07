@@ -4,5 +4,5 @@
 
 ## Используемые технологии и инструменты
 
-* [php](tech/php.md)
-* [go](tech/go.md)
+* [php](../tech/php.md)
+* [go](../tech/go.md)

@@ -8,7 +8,7 @@
 
 ## Используемые технологии и инструменты
 
-* [mobile kotlin](tech/kotlin.md)
-* [mobile swift](tech/swift.md)
-* [backend go](tech/golang.md)
-* [backend python](tech/python.md)
+* [mobile kotlin](../tech/kotlin.md)
+* [mobile swift](../tech/swift.md)
+* [backend go](../tech/golang.md)
+* [backend python](../tech/python.md)
