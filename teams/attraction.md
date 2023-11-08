@@ -5,7 +5,7 @@
 
 ## Используемые технологии и инструменты
 
-* [php](tech/php.md)
-* [go](tech/go.md)
-* [kotlin](tech/kotlin.md)
-* [swift](tech/swift.md)
+* [php](../tech/php.md)
+* [go](../tech/go.md)
+* [kotlin](../tech/kotlin.md)
+* [swift](../tech/swift.md)

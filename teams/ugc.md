@@ -14,6 +14,6 @@
 
 ## Используемые технологии и инструменты
 
-* [python](tech/python.md)
+* [python](../tech/python.md)
 * postgres
 * kafka

@@ -10,5 +10,5 @@
 
 ## Используемые технологии и инструменты
 
-* [mobile kotlin](tech/kotlin.md)
-* [mobile swift](tech/swift.md)
+* [mobile kotlin](../tech/kotlin.md)
+* [mobile swift](../tech/swift.md)

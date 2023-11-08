@@ -14,7 +14,7 @@
 
 ## Используемые технологии и инструменты
 
-* [golang](tech/golang.md)
+* [golang](../tech/golang.md)
 * postgres
 * redis
 * rabbitmq
