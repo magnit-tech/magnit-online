@@ -26,7 +26,7 @@
 
 #### <img src="https://cdn.svgporn.com/logos/apple-app-store.svg" alt="ios" width="25" height="18" /> iOS
 
-* [Магнит: акции и доставка](https://apps.apple.com/ru/app/магнит-акции-и-скидки/id881463973)
+* [Магнит: акции и доставка](https://apps.apple.com/ru/app/магнит-акции-и-доставка/id881463973)
 * [Магнит — доставка товаров](https://apps.apple.com/ru/app/%D0%BC%D0%B0%D0%B3%D0%BD%D0%B8%D1%82-%D0%B4%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%B0-%D1%82%D0%BE%D0%B2%D0%B0%D1%80%D0%BE%D0%B2/id1536769731)
 
 ### <img src="https://cdn.svgporn.com/logos/chrome.svg" alt="apple" width="25" height="18" /> Сайты
