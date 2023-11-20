@@ -155,3 +155,4 @@
 
 - [Кто такие T-shaped специалисты и почему с ними команда становится лучше](https://rasa.pro/about/blog/1186/)
 - [The five expertise levels of a software developer; the road to zen master](https://dev.to/jmitchell38488/the-five-expertise-levels-of-a-software-developer-the-road-to-zen-master-36d7)
+- [What employee type or shape are you?](https://www.axelos.com/resource-hub/blog/what-employee-type-or-shape-are-you)
