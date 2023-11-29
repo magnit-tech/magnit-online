@@ -37,6 +37,10 @@
 * [php](php.md)
 * [python](python.md)
 
+### Devops
+
+* [devops](devops.md)
+
 ### Mobile
 
 * [kotlin](kotlin.md)
