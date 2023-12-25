@@ -1,10 +1,9 @@
 # Grades
 
-* [Инженерная культура](../engineering_culture.md)
+- [Инженерная культура](../engineering_culture.md)
+- [Гигиенический минимум](minimum.md)
 
 ## Грейды инженеров
-
-[Гигиенический минимум](minimum.md)
 
 | Base | iOS | Backend | DevOps | Web | Android |
 |------|-----|---------|--------|-----|---------|
@@ -14,15 +13,15 @@
 
 ## Грейды технических менеджеров
 
-* [TeamLead](managers/teamlead.md)
-* [DirectionLead](managers/directionlead.md)
-* [DomainLead](managers/domainlead.md)
+- [TeamLead](managers/teamlead.md)
+- [DirectionLead](managers/directionlead.md)
+- [DomainLead](managers/domainlead.md)
 
 ## Дополнительные роли инженеров и технических менеджеров
 
 Данные роли не являются отражением оргструктры.
 
-* [Mentor](roles/mentor.md)
-* [TechLead](roles/techlead.md)
-* [GuildLead](roles/guildlead.md)
-* [VurtialClusterLead](roles/vurtialclusterlead.md)
+- [Mentor](roles/mentor.md)
+- [TechLead](roles/techlead.md)
+- [GuildLead](roles/guildlead.md)
+- [VurtialClusterLead](roles/vurtialclusterlead.md)
