@@ -1,9 +1,15 @@
 # Grades
 
-* [Гигиенический минимум](minimum.md)
 * [Инженерная культура](../engineering_culture.md)
 
 ## Грейды инженеров
+
+### Базовые требования к грейдам
+
+* [Гигиенический минимум](minimum.md)
+* [junior](junior.md)
+* [middle](middle.md)
+* [senior](senior.md)
 
 ### Android
 
