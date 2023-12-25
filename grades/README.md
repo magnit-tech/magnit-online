@@ -51,6 +51,7 @@
 
 Данные роли не являются отражением оргструктры.
 
+* [Mentor](roles/mentor.md)
 * [TechLead](roles/techlead.md)
 * [GuildLead](roles/guildlead.md)
 * [VurtialClusterLead](roles/vurtialclusterlead.md)
