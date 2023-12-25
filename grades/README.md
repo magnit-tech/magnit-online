@@ -4,42 +4,13 @@
 
 ## Грейды инженеров
 
-### Базовые требования к грейдам
+[Гигиенический минимум](minimum.md)
 
-* [Гигиенический минимум](minimum.md)
-* [junior](junior.md)
-* [middle](middle.md)
-* [senior](senior.md)
-
-### Android
-
-* [junior](android/junior.md)
-* [middle](android/middle.md)
-* [senior](android/senior.md)
-
-### Backend
-
-* [junior](backend/junior.md)
-* [middle](backend/middle.md)
-* [senior](backend/senior.md)
-
-### Web
-
-* [junior](web/junior.md)
-* [middle](web/middle.md)
-* [senior](web/senior.md)
-
-### iOS
-
-* [junior](ios/junior.md)
-* [middle](ios/middle.md)
-* [senior](ios/senior.md)
-
-### Devops
-
-* [junior](devops/junior.md)
-* [middle](devops/middle.md)
-* [senior](devops/senior.md)
+| Base | iOS | Backend | DevOps | Web | Android |
+|------|-----|---------|--------|-----|---------|
+|[junior](junior.md)|[junior](ios/junior.md)|[junior](backend/junior.md)|[junior](devops/junior.md)|[junior](web/junior.md)|[junior](android/junior.md)|
+|[middle](middle.md)|[middle](ios/middle.md)|[middle](backend/middle.md)|[middle](devops/middle.md)|[middle](web/middle.md)|[middle](android/middle.md)|
+|[senior](senior.md)|[senior](web/senior.md)|[senior](backend/senior.md)|[senior](devops/senior.md)|[senior](web/senior.md)|[senior](android/senior.md)|
 
 ## Грейды технических менеджеров
 
