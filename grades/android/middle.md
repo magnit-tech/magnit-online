@@ -1,6 +1,6 @@
 # Middle
 
-Наследует все требования и обязанности [Android junior](junior.md) и [Middle](../middle.md).
+Наследует все права и обязанности [Android junior](junior.md) и [Middle](../middle.md).
 
 ## Навыки Android разработчика
 

@@ -1,3 +1,3 @@
 # Middle
 
-Наследует все требования и обязанности [Web junior](junior.md) и [middle](../middle.md).
+Наследует все права и обязанности [Web junior](junior.md) и [middle](../middle.md).

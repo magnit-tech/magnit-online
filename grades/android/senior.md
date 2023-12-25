@@ -1,6 +1,6 @@
 # Senior
 
-Наследует все требования и обязанности [Android middle](middle.md) и [Senior](../senior.md).
+Наследует все права и обязанности [Android middle](middle.md) и [Senior](../senior.md).
 
 ## Навыки Android разработчика
 

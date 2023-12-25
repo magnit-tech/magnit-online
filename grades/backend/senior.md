@@ -1,6 +1,6 @@
 # Senior
 
-Наследует все требования и обязанности [Backend middle](middle.md) и [Senior](../senior.md).
+Наследует все права и обязанности [Backend middle](middle.md) и [Senior](../senior.md).
 
 ## Ops
 
