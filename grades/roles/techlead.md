@@ -1,5 +1,7 @@
 # TechLead
 
+> Under construction
+
 Наследует все права и обязанности из [Senior](../senior.md).
 
 ## Экспертность
