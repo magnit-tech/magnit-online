@@ -1,3 +1,3 @@
 # Middle
 
-tbd
+Наследует все права и обязанности [iOS junior](junior.md) и [middle](../middle.md).

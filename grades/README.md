@@ -1,38 +1,49 @@
-# Grades
+# Профили инженеров
 
-Изначально есть [гигиенический минимум](minimum.md) которому должен соответствовать кандидат.
+- [Инженерная культура](../engineering_culture.md)
+- [Гигиенический минимум](minimum.md)
 
-## Android
+## Профили технических специалистов
 
-* [junior](android/junior.md)
-* [middle](android/middle.md)
-* [senior](android/senior.md)
-* [TechLead](android/techlead.md)
+| Base | iOS | Backend | DevOps | Web | Android |
+|------|-----|---------|--------|-----|---------|
+|[junior](junior.md)|[junior](ios/junior.md)|[junior](backend/junior.md)|[junior](devops/junior.md)|[junior](web/junior.md)|[junior](android/junior.md)|
+|[middle](middle.md)|[middle](ios/middle.md)|[middle](backend/middle.md)|[middle](devops/middle.md)|[middle](web/middle.md)|[middle](android/middle.md)|
+|[senior](senior.md)|[senior](web/senior.md)|[senior](backend/senior.md)|[senior](devops/senior.md)|[senior](web/senior.md)|[senior](android/senior.md)|
 
-## iOS
+Критерии оценки:
 
-* [junior](ios/junior.md)
-* [middle](ios/middle.md)
-* [senior](ios/senior.md)
-* [TechLead](ios/techlead.md)
+- Разработка;
+- Архитектура;
+- Инженерная культура;
+- Коммуникация;
+- Самообучение и наставничество;
+- Планирование;
+- Команда;
+- Смертные грехи;
+- Навыки стека разработки.
 
-## Backend
+## Профили технических менеджеров
 
-* [junior](backend/junior.md)
-* [middle](backend/middle.md)
-* [senior](backend/senior.md)
-* [TechLead](backend/techlead.md)
+- [TeamLead](managers/teamlead.md)
+- [DirectionLead](managers/directionlead.md)
+- [DomainLead](managers/domainlead.md)
 
+Критерии оценки:
 
-## TeamLead
+- Лидерство;
+- Управление людьми;
+- Управление командами;
+- Целеполагание, планирование и реализация;
+- Управление процессами;
+- Техническая экспертиза;
+- Бизнес экспертиза.
 
-* [TeamLead](teamlead.md)
+## Дополнительные роли
 
-## ClusterLead
+Данные роли не являются отражением орг.структуры.
 
-* [ClusterLead](clusterlead.md)
-
-
-## Алгоритм роста грейдов
-
-![your-UML-diagram-name](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/magnit-tech/magnit-online-services-docs/master/plantuml/grades.iuml)
+- [Mentor](roles/mentor.md)
+- [TechLead](roles/techlead.md)
+- [GuildLead](roles/guildlead.md)
+- [VurtialClusterLead](roles/vurtialclusterlead.md)

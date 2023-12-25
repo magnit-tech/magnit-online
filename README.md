@@ -61,7 +61,7 @@ MAU | 10+ млн человек
 * [Технологии и инструменты](tech/README.md)
 * [Команды](teams/README.md)
 * [Организационная структура](org_chart.md)
-* [Grades](grades/README.md)
+* [Профили инженеров](grades/README.md)
 * [Гильдии](guild.md)
 * [Публикации и выступления](publication.md)
 

@@ -1,3 +1,3 @@
 # Junior
 
-## Under construction
+Наследует все права и обязанности [junior](../junior.md).
