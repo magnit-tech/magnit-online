@@ -69,6 +69,6 @@ MAU | 10+ млн человек
 
 * [Технологический радар](https://magnit-tech.github.io/magnit-online/tech/radar/index.html)
 * [Habr](https://habr.com/ru/company/magnit/blog/)
-* [Корпоративный сайт](https://www.magnit.tech/)
-* [Вакансии](https://www.magnit.tech/vacancies/)
+* [Корпоративный сайт](https://magnit.tech/)
+* [Вакансии](https://magnit.tech/vacancies/)
 * [Контакты](contacts.md)
