@@ -37,14 +37,14 @@
 
 ## Грейды технических менеджеров
 
-* [TeamLead](teamlead.md)
-* [DirectionLead](directionlead.md)
-* [DomainLead](domainlead.md)
+* [TeamLead](managers/teamlead.md)
+* [DirectionLead](managers/directionlead.md)
+* [DomainLead](managers/domainlead.md)
 
 ## Дополнительные роли инженеров и технических менеджеров
 
 Данные роли не являются отражением оргструктры.
 
-* [TechLead](techlead.md)
-* [GuildLead](guildlead.md)
-* [VurtialClusterLead](vurtialclusterlead.md)
+* [TechLead](roles/techlead.md)
+* [GuildLead](roles/guildlead.md)
+* [VurtialClusterLead](roles/vurtialclusterlead.md)
