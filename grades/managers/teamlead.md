@@ -2,7 +2,7 @@
 
 Вдохновлено [этим](https://github.com/avito-tech/playbook/blob/master/techlead-profile.md)
 
-TeamLead это руководитель команды разработки.
+**TeamLead** - это руководитель команды разработки.
 
 ## Лидерство
 

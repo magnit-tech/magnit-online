@@ -1,6 +1,8 @@
-# Direction Lead
+# DirectionLead
 
 Вдохновлено [этим](https://github.com/avito-tech/playbook/blob/master/techlead-profile.md)
+
+**DirectionLead** - это руководитель направления разработки состоящее из n команд.
 
 ## Лидерство
 
