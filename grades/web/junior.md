@@ -1,3 +1,3 @@
 # Junior
 
-> Under construction
+Наследует все требования и обязанности [junior](../junior.md).

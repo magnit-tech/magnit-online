@@ -1,6 +1,6 @@
 # Middle
 
-Наследует все требования и обязанности [middle](../middle.md).
+Наследует все требования и обязанности [Backend junior](junior.md) и [middle](../middle.md).
 
 ## Ops
 

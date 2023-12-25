@@ -1,3 +1,3 @@
 # Middle
 
-> Under construction
+Наследует все требования и обязанности [iOS junior](junior.md) и [middle](../middle.md).

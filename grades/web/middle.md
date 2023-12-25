@@ -1,3 +1,3 @@
 # Middle
 
-> Under construction
+Наследует все требования и обязанности [Web junior](junior.md) и [middle](../middle.md).
